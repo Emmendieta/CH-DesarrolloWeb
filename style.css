@@ -1,0 +1,937 @@
+/* ---- RESET CSS ---- */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* ---- GENERAL ---- */
+
+html {
+    height: 100%;
+    width: auto;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 2fr auto;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    column-gap: 20px;
+    min-height: 100vh;
+}
+
+/* ---- Header ---- */
+
+#header {
+    grid-area: header;
+    background-color: rgb(8, 8, 8);
+    border-bottom: 3px rgb(44, 42, 42) solid;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar__section {
+    align-content: center;
+    padding: 10px 15px ;
+}
+
+.navbar__logo {
+    width: 250px;
+}
+
+.navBar__lista {
+    display: flex;
+}
+
+.navBar__lista--item {
+    padding: 10px 7px;
+}
+
+.navBar__lista--a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---- Main ---- */
+
+#main {
+    grid-area: main ;
+    background-color: rgb(2, 2, 2);
+}
+
+.main__article--section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main__article__section--parrafo {
+    text-align: justify;
+}
+
+.main__form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 15px;
+}
+
+.main__form--input, .main__form--label, .main__form--button {
+    grid-column: 2 / 3;
+    margin: 2px 5px;
+    padding-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+.main__form--input, .main__form--button {
+    color: black;
+}
+
+.main__form--button {
+    display: inline-flex;
+    justify-content: center;
+    color: rgb(223, 221, 221);
+    background-color: rgb(8, 75, 8);
+    font-size: 16px; 
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    margin: 20px 30%;
+}
+
+p {
+    text-align: justify;
+    padding-right: 30px;
+}
+
+h2 {
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 15px;
+    color: yellow;
+}
+
+h4 {
+    text-align: justify;
+    text-decoration: underline;
+    padding: 10px 0;
+    color: red;
+}
+
+/* ---- INDEX ---- */
+
+#carouselExampleFade {
+    max-width: 750px;
+    height: auto;
+    align-self: center;
+}
+
+#mnArtSctDivDivCarousel {
+    width: 750px;
+    height: auto;
+}
+
+#mnArtSectDivbtn {
+    background-color: black;
+}
+
+#mnArtSectDivImgCarousel{
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/* ---- ABOUT ---- */
+
+
+.main__section--video {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__section--image {
+    width: 75%;
+    height: auto;
+}
+
+.main__section--tarjetas {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 25px 0;
+}
+
+#aboutVideo {
+    width: 75%;
+    height: auto;
+}
+
+.card {
+    background-color: grey;
+}
+
+#danielScianca {
+    grid-column: 1;
+}
+
+#jeremiasScianca {
+    grid-column: 2;
+}
+
+#mateoGonzalez {
+    grid-column: 3;
+}
+
+.card-text {
+    color: black;
+}
+
+.btn-secondary {
+    background-color: red;
+}
+
+/* ---- HELP ---- */
+
+.main__form--textArea {
+    grid-column: 2 / 3;
+    margin: 2px 5px;
+    padding-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    height: 200px;
+    width: auto;
+    color: black;
+}
+
+/* ---- LOGIN ---- */
+
+
+/* ---- SEGUIMIENTO ---- */
+
+.main__section--seguimiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.main__section--parrafo, .main__section--h4, .main__section--h5, .main__section--h6 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main__section--h4 {
+    font-size: 20px;
+}
+
+.main__section--h5 {
+    font-size: 18px;
+}
+
+.main__section--h6 {
+    font-size: 16px;
+}
+
+/* ---- SING UP ---- */
+
+/* ----  Footer ---- */
+
+#footer {
+    grid-area: footer;
+    background-color: rgb(8, 8, 8);
+    border-top: 3px rgb(44, 42, 42) solid;
+}
+
+.footer--div {
+    display: flex;
+}
+
+.footer__div--top {
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer__div--bottom {
+    border-top: 3px rgb(44, 42, 42) solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__link {
+    margin: 10px 5px;
+    padding-left: 10px;
+}
+
+.footer__parrafo--bottom {
+    text-align: center;
+    color: rgb(227, 228, 192);
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+/* ----  RESPONSIVE ---- */
+
+/* ----  Extra Small ---- */
+
+@media (max-width: 575px) {
+
+    /* ---- HEADER ---- */
+
+    p {
+        padding: 10px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    #navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar__p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navBar__section {
+        padding: 5px;
+    }
+
+    .navbar__logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .navBar__lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ---- MAIN ---- */
+
+    /* ---- General ---- */
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .navBar__lista--item {
+        padding: 3px;
+    }
+
+    .main__form {
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+        gap: 2px;
+    }
+    .main__form--label, .main__form--input, .main__form--button{
+        font-size: 10px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .main__form--textArea {
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .main__form--button {
+        margin: 15px 0;
+    }
+
+    #mnArtSctDivDivCarousel {
+        width: 200px;
+    }
+
+    .main__section--h4 {
+        padding: 5px 10px;
+    }
+
+    .main__section--parrafo {
+        padding: 0 10px;
+    }
+
+    /* ---- About ---- */
+
+    .main__section--tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3px 20px;
+    }
+
+    /* ---- FOOTER ---- */
+
+    .footer__div--top, .footer__div--bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__div--bottom {
+        padding: 15px 0 15px 0;
+    }
+
+    .footer__section--h3, .footer__parrafo--bottom, .footer__section--parrafo, .footer__parrafo {
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer__parrafo--bottom {
+        color: rgb(227, 228, 192);
+    }
+
+}
+
+/* ----  Small ---- */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    /* ---- HEADER ---- */
+
+    p {
+        padding: 10px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    #navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar__p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navBar__section {
+        padding: 5px;
+    }
+
+    .navbar__logo {
+        width: 150px;
+        height: auto;
+    }
+
+    .navBar__lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ---- MAIN ---- */
+
+    /* ---- General ---- */
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .navBar__lista--item {
+        padding: 3px;
+    }
+
+    .main__form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 60px;
+        gap: 2px;
+    }
+    .main__form--label, .main__form--input, .main__form--button{
+        font-size: 10px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .main__form--textArea {
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .main__form--button {
+        margin: 15px 0;
+    }
+
+    #mnArtSctDivDivCarousel {
+        width: 450px;
+    }
+
+    .main__section--h4 {
+        padding: 5px 20px;
+    }
+
+    .main__section--parrafo {
+        padding: 0 20px;
+    }
+
+    /* ---- About ---- */
+
+    .main__section--tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 20px;
+    }
+
+    /* ---- FOOTER ---- */
+
+    .footer__div--top, .footer__div--bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__div--bottom {
+        padding: 15px 0 15px 0;
+    }
+
+    .footer__section--h3, .footer__parrafo--bottom, .footer__section--parrafo, .footer__parrafo {
+        text-align: center;
+        padding: 0;
+    }
+
+    .footer__parrafo--bottom {
+        color: rgb(227, 228, 192);
+    }
+}
+
+/* ----  Medium ---- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+        /* ---- HEADER ---- */
+
+        p {
+            padding: 10px;
+            text-align: justify;
+            padding-right: 15px;
+        }
+    
+        #navBar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navbar__p {
+            text-align: center;
+            font-size: 20px;
+            padding: 0;
+        }
+    
+        .navBar__section {
+            padding: 5px;
+        }
+    
+        .navbar__logo {
+            width: 300px;
+            height: auto;
+        }
+    
+        .navBar__lista{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navBar__lista--a {
+            font-size: 20px;
+        }
+    
+        /* ---- MAIN ---- */
+    
+        /* ---- General ---- */
+    
+        h2 {
+            font-size: 22px;
+        }
+    
+        h4 {
+            font-size: 20px;
+        }
+    
+        h5 {
+            font-size: 18px;
+        }
+    
+        h6 {
+            font-size: 14px;
+        }
+    
+        p {
+            font-size: 12px;
+        }
+    
+        .navBar__lista--item {
+            padding: 3px;
+        }
+    
+        .main__form {
+            display: flex;
+            flex-direction: column;
+            margin: 10px 150px;
+            gap: 2px;
+        }
+        .main__form--label, .main__form--input, .main__form--button{
+            font-size: 10px;
+            margin: 2px;
+            padding: 2px;
+        }
+    
+        .main__form--textArea {
+            height: 100px;
+            font-size: 10px;
+        }
+    
+        .main__form--button {
+            margin: 15px 0;
+        }
+    
+        #mnArtSctDivDivCarousel {
+            width: 650px;
+        }
+    
+        .main__section--h4 {
+            padding: 5px 20px;
+        }
+    
+        .main__section--parrafo {
+            padding: 0 20px;
+        }
+    
+        /* ---- About ---- */
+
+        #aboutVideo {
+            width: 650px;
+        }
+    
+        .main__section--tarjetas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #danielScianca, #jeremiasScianca, #mateoGonzalez {
+            width: 650px;
+            height: auto;
+        }
+    
+        /* ---- FOOTER ---- */
+    
+        .footer__div--top, .footer__div--bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .footer__div--bottom {
+            padding: 15px 0 15px 0;
+        }
+    
+        .footer__section--h3, .footer__parrafo--bottom, .footer__section--parrafo, .footer__parrafo {
+            text-align: center;
+            padding: 0;
+        }
+    
+        .footer__parrafo--bottom {
+            color: rgb(227, 228, 192);
+        }   
+}
+
+/* ----  Large ---- */
+
+@media (min-width: 992px) and (max-width: 1119px) {
+
+            /* ---- HEADER ---- */
+
+            p {
+                padding: 20px;
+                text-align: justify;
+                padding-right: 15px;
+            }
+        
+            #navBar {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            .navbar__p {
+                text-align: center;
+                font-size: 25px;
+                padding: 0;
+            }
+        
+            .navBar__section {
+                padding: 5px;
+            }
+        
+            .navbar__logo {
+                width: 350px;
+                height: auto;
+            }
+        
+            .navBar__lista{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+            }
+
+            .navBar__lista--a {
+                font-size: 25px;
+            }
+        
+            /* ---- MAIN ---- */
+        
+            /* ---- General ---- */
+        
+            h2 {
+                font-size: 30px;
+            }
+        
+            h4 {
+                font-size: 25px;
+            }
+        
+            h5 {
+                font-size: 22px;
+            }
+        
+            h6 {
+                font-size: 20px;
+            }
+        
+            p {
+                font-size: 16px;
+            }
+        
+            .navBar__lista--item {
+                padding: 3px;
+            }
+        
+            .main__form {
+                display: flex;
+                flex-direction: column;
+                margin: 10px 60px;
+                gap: 2px;
+            }
+            .main__form--label, .main__form--input, .main__form--button{
+                font-size: 16px;
+                margin: 2px;
+                padding: 2px;
+            }
+        
+            .main__form--textArea {
+                height: 100px;
+                font-size: 16px;
+            }
+        
+            .main__form--button {
+                margin: 15px 0;
+            }
+        
+            #mnArtSctDivDivCarousel {
+                width: 650px;
+            }
+        
+            .main__section--h4 {
+                padding: 5px 25px;
+            }
+        
+            .main__section--parrafo {
+                padding: 0 20px;
+            }
+        
+            /* ---- About ---- */
+    
+            #aboutVideo {
+                width: 850px;
+            }
+        
+            .main__section--tarjetas {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            #danielScianca, #jeremiasScianca, #mateoGonzalez {
+                width: 850px;
+                height: auto;
+            }
+        
+            /* ---- FOOTER ---- */
+        
+            .footer__div--top, .footer__div--bottom {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        
+            .footer__div--bottom {
+                padding: 15px 0 15px 0;
+            }
+        
+            .footer__section--h3, .footer__parrafo--bottom, .footer__section--parrafo, .footer__parrafo {
+                text-align: center;
+                padding: 0;
+            }
+        
+            .footer__parrafo--bottom {
+                color: rgb(227, 228, 192);
+            }   
+}
+
+/* ----  Extra Large ---- */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* ---- Main ---- */
+
+    /* ---- ABOUT ---- */
+
+    .main__section--h4, .main__section--parrafo {
+        padding-left: 15px;
+    }
+
+    .main__section--tarjetas {
+        display: flex;
+        width: fit-content;
+        margin: 10px 50px;
+    }
+
+    #aboutVideo {
+        width: 1050px;
+    }
+
+}
+
+/* ----  Extra Extra Large ---- */
+
+@media (min-width: 1400px) {
+    
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .navbar__logo {
+        width: 300px;
+    }
+
+    .navBar__lista--a {
+        font-size: 25px;
+    }
+
+    .navbar__p {
+        font-size: 25px;
+    }
+
+    .main__section--parrafo {
+        margin-left: 20px;
+    }
+
+    #aboutVideo {
+        width: 1200px;
+    }
+
+    .main__section--tarjetas {
+        display: flex;
+        width: fit-content;
+        margin: 10px 50px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

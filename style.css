@@ -171,7 +171,7 @@ h4 {
 .main__section--tarjetas {
     width: 100%;
     display: grid;
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-items: center;
     margin: 25px 0;
@@ -184,6 +184,8 @@ h4 {
 
 .card {
     background-color: grey;
+    width: 100%;
+    height: auto;
 }
 
 #danielScianca {
@@ -937,7 +939,7 @@ h4 {
     }
 
     .navbar__logo {
-        width: 250px;
+        width: 250;
     }
 
     .navBar__lista--a {

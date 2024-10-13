@@ -1,3 +1,4 @@
+/* IMPORT RESET */
 /* ---- RESET CSS ---- */
 * {
   box-sizing: border-box;
@@ -23,6 +24,7 @@ body {
   min-height: 50vh;
 }
 
+/* IMPORT HEADER */
 /* ---- Header ---- */
 #header {
   grid-area: header;
@@ -56,6 +58,40 @@ body {
   font-size: 25px;
   color: #F7C683;
   text-decoration: none;
+}
+
+/* IMPORT FOOTER */
+/* ----  Footer ---- */
+#footer {
+  grid-area: footer;
+  background-color: rgb(8, 8, 8);
+  border-top: 3px rgb(44, 42, 42) solid;
+}
+
+#footer div {
+  display: flex;
+}
+
+.ftTop {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.ftBottom {
+  border-top: 3px rgb(44, 42, 42) solid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.ftTopSectLink, .ftBottomSectLink {
+  margin: 10px 5px;
+  padding-left: 10px;
+}
+
+.ftBottomSectP, .ftBottomSectLink i {
+  color: #F7C683;
 }
 
 /* ---- Main ---- */
@@ -261,39 +297,6 @@ body {
 /* ---- LOGIN ---- */
 /* ---- SEGUIMIENTO ---- */
 /* ---- SING UP ---- */
-/* ----  Footer ---- */
-#footer {
-  grid-area: footer;
-  background-color: rgb(8, 8, 8);
-  border-top: 3px rgb(44, 42, 42) solid;
-}
-
-#footer div {
-  display: flex;
-}
-
-.ftTop {
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-}
-
-.ftBottom {
-  border-top: 3px rgb(44, 42, 42) solid;
-  align-items: center;
-  justify-content: center;
-  padding-top: 15px;
-}
-
-.ftTopSectLink, .ftBottomSectLink {
-  margin: 10px 5px;
-  padding-left: 10px;
-}
-
-.ftBottomSectP, .ftBottomSectLink i {
-  color: #F7C683;
-}
-
 /* ----  RESPONSIVE ---- */
 /* ----  Extra Small ---- */
 @media (max-width: 575px) {

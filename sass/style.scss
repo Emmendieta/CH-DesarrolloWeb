@@ -1,68 +1,12 @@
-/* ---- RESET CSS ---- */
+/* IMPORT RESET */
+@import "estilo-principal/reset";
 
-* {
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    color: white;
-}
+/* IMPORT HEADER */
+@import "estilo-principal/header";
 
-/* ---- GENERAL ---- */
+/* IMPORT FOOTER */
+@import "estilo-principal/footer";
 
-html, body {
-    height: 100%;
-    width: auto;
-}
-
-body {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    column-gap: 20px;
-    min-height: 50vh;
-}
-
-/* ---- Header ---- */
-
-#header {
-    grid-area: header;
-}
-
-#hdNavBar {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(8, 8, 8);
-    border-bottom: 3px rgb(44, 42, 42) solid; 
-    align-items: center;   
-}
-
-.hdNavSection {
-    padding: 10px 15px;
-}
-
-.hdNavSectImg {
-    width: 250px;
-}
-
-.navbar-nav {
-    text-align: center;
-}
-
-.hdNavUlLi{
-    margin-bottom: 20px;
-}
-
-.hdNavUlLiA {
-    font-size: 25px;
-    color: #F7C683;
-    text-decoration: none;
-}
 
 /* ---- Main ---- */
 
@@ -273,40 +217,6 @@ body {
 /* ---- SEGUIMIENTO ---- */
 
 /* ---- SING UP ---- */
-
-/* ----  Footer ---- */
-
-#footer {
-    grid-area: footer;
-    background-color: rgb(8, 8, 8);
-    border-top: 3px rgb(44, 42, 42) solid;
-}
-
-#footer div {
-    display: flex;
-}
-
-.ftTop {
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-}
-
-.ftBottom {
-    border-top: 3px rgb(44, 42, 42) solid;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-}
-
-.ftTopSectLink, .ftBottomSectLink {
-    margin: 10px 5px;
-    padding-left: 10px;
-}
-
-.ftBottomSectP, .ftBottomSectLink i {
-    color: #F7C683;
-}
 
 /* ----  RESPONSIVE ---- */
 

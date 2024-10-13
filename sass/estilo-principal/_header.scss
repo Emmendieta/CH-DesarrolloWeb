@@ -1,0 +1,35 @@
+/* ---- Header ---- */
+
+#header {
+    grid-area: header;
+}
+
+#hdNavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+    border-bottom: 3px rgb(44, 42, 42) solid; 
+    align-items: center;   
+}
+
+.hdNavSection {
+    padding: 10px 15px;
+}
+
+.hdNavSectImg {
+    width: 250px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.hdNavUlLi{
+    margin-bottom: 20px;
+}
+
+.hdNavUlLiA {
+    font-size: 25px;
+    color: #F7C683;
+    text-decoration: none;
+}

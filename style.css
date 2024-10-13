@@ -279,35 +279,32 @@ h4 {
     background-color: rgb(8, 8, 8);
     border-top: 3px rgb(44, 42, 42) solid;
 }
-/*
-.footer--div {
+
+#footer div {
     display: flex;
 }
 
-.footer__div--top {
+.ftTop {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
 }
 
-.footer__div--bottom {
+.ftBottom {
     border-top: 3px rgb(44, 42, 42) solid;
     align-items: center;
     justify-content: center;
 }
 
-.footer__link {
+.ftTopSectLink, .ftBottomSectLink {
     margin: 10px 5px;
     padding-left: 10px;
 }
 
-.footer__parrafo--bottom {
-    text-align: center;
-    color: rgb(227, 228, 192);
-    margin-top: 15px;
-    padding-right: 10px;
+.ftBottomSectP, .ftBottomSectLink i {
+    color: #F7C683;
 }
- */
+
 /* ----  RESPONSIVE ---- */
 
 /* ----  Extra Small ---- */

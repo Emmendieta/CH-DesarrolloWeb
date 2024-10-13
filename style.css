@@ -25,30 +25,50 @@ body {
         "main main main"
         "footer footer footer";
     column-gap: 20px;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 /* ---- Header ---- */
 
 #header {
     grid-area: header;
-    background-color: rgb(8, 8, 8);
-    border-bottom: 3px rgb(44, 42, 42) solid;
+
 }
 
-#navBar {
+#hdNavBar {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+    border-bottom: 3px rgb(44, 42, 42) solid; 
+    align-items: center;   
 }
 
-.navBar__section {
-    align-content: center;
-    padding: 10px 15px ;
+.hdNavSection {
+    padding: 10px 15px;
 }
 
-.navbar__logo {
+
+.hdNavSectImg {
     width: 250px;
 }
+
+.navbar-nav {
+    text-align: center;
+}
+
+.hdNavUlLi{
+    margin-bottom: 20px;
+}
+
+.hdNavUlLiA {
+    font-size: 25px;
+    color: #F7C683;
+    text-decoration: none;
+}
+
+
+/* 
+
 
 .navBar__lista {
     display: flex;
@@ -61,7 +81,7 @@ body {
 .navBar__lista--a {
     color: white;
     text-decoration: none;
-}
+} */
 
 /* ---- Main ---- */
 
@@ -69,7 +89,7 @@ body {
     grid-area: main ;
     background-color: rgb(2, 2, 2);
 }
-
+/* 
 .main__article--section {
     display: flex;
     flex-direction: column;
@@ -131,11 +151,11 @@ h4 {
     text-decoration: underline;
     padding: 10px 0;
     color: red;
-}
+} */
 
 /* ---- INDEX ---- */
 
-#carouselExampleFade {
+/* #carouselExampleFade {
     max-width: 750px;
     height: auto;
     align-self: center;
@@ -153,12 +173,12 @@ h4 {
 #mnArtSectDivImgCarousel{
     border-radius: 30px;
     padding: 20px;
-}
+} */
 
 /* ---- ABOUT ---- */
 
 
-.main__section--video {
+/* .main__section--video {
     display: flex;
     justify-content: space-evenly;
 }
@@ -206,11 +226,11 @@ h4 {
 
 .btn-secondary {
     background-color: red;
-}
+} */
 
 /* ---- HELP ---- */
 
-.main__form--textArea {
+/* .main__form--textArea {
     grid-column: 2 / 3;
     margin: 2px 5px;
     padding-top: 3px;
@@ -219,14 +239,14 @@ h4 {
     height: 200px;
     width: auto;
     color: black;
-}
+} */
 
 /* ---- LOGIN ---- */
 
 
 /* ---- SEGUIMIENTO ---- */
 
-.main__section--seguimiento {
+/* .main__section--seguimiento {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +269,7 @@ h4 {
 .main__section--h6 {
     font-size: 16px;
 }
-
+ */
 /* ---- SING UP ---- */
 
 /* ----  Footer ---- */
@@ -259,7 +279,7 @@ h4 {
     background-color: rgb(8, 8, 8);
     border-top: 3px rgb(44, 42, 42) solid;
 }
-
+/*
 .footer--div {
     display: flex;
 }
@@ -287,7 +307,7 @@ h4 {
     margin-top: 15px;
     padding-right: 10px;
 }
-
+ */
 /* ----  RESPONSIVE ---- */
 
 /* ----  Extra Small ---- */

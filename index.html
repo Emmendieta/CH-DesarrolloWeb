@@ -16,34 +16,46 @@
     <!-- Header -->
     
     <header id="header">
-        <nav id="navBar" class="navbar navbar-expand-lg w-100">
-            <!-- Logo -->
-            <section class="navBar__section">
-                <div class="container-fluid">
-                    <img src="images/logo_proveer.png" alt="LogoProveerSinFondo" class="navbar__logo">
-                </div>
-            </section>
-            <!-- Texto Introductivo -->
-            <section class="navBar__section">
-                <div class="container-fluid">
-                    <p class="navbar__p">Encomiendas - Gestiones</p>
-                    <p class="navbar__p">Trelew - Neuquen - Trelew</p>
-                </div>
-            </section>
-            <!-- Lista de Páginas -->
-            <section class="navBar__section">
-                <div class="container-fluid">
-                    <ul class="navBar__lista">
-                        <li class="navBar__lista--item"><a href="pages/login.html" class="navBar__lista--a">Login</a></li>
-                        <li class="navBar__lista--item"><a href="pages/sing_up.html" class="navBar__lista--a">Registrarse</a></li>
-                        <li class="navBar__lista--item"><a href="pages/seguimiento.html" class="navBar__lista--a">Seguimiento</a></li>
-                        <li class="navBar__lista--item"><a href="pages/help.html" class="navBar__lista--a">Ayuda</a></li>
-                        <li class="navBar__lista--item"><a href="pages/about.html" class="navBar__lista--a">Acerca de Nosotros</a></li>
-                    </ul>
-                </div>
-            </section>            
+        <nav id="hdNavBar" class="navbar navbar-dark">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <section class="hdNavSection">
+                    <div class="container-fluid">
+                        <img src="images/logo_proveer.png" alt="LogoProveerSinFondo" class="hdNavSectImg">
+                    </div>
+                </section>
+                <!-- Texto Introductivo -->
+                <section class="hdNavSection">
+                    <div class="container-fluid">
+                        <p class="hdNavSectP">Encomiendas - Gestiones</p>
+                        <p class="hdNavSectP">Trelew - Neuquen - Trelew</p>
+                    </div>
+                </section>            
+                <!-- Menu Hamburguesa -->
+                <section class="hdNavSection"> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav flex-grow-1 pe-3">
+                                <!-- Lista de Páginas -->
+                                <li class="hdNavUlLi"><a href="pages/login.html" class="hdNavUlLiA">Login</a></li>
+                                <li class="hdNavUlLi"><a href="pages/sing_up.html" class="hdNavUlLiA">Registrarse</a></li>
+                                <li class="hdNavUlLi"><a href="pages/seguimiento.html" class="hdNavUlLiA">Seguimiento</a></li>
+                                <li class="hdNavUlLi"><a href="pages/help.html" class="hdNavUlLiA">Ayuda</a></li>
+                                <li class="hdNavUlLi"><a href="pages/about.html" class="hdNavUlLiA">Acerca de Nosotros</a></li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </section>                
+            </div>
         </nav>
     </header>
+
 
 
     <!-- Main -->

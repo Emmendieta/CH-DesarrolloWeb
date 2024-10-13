@@ -80,22 +80,18 @@ body {
     padding: 20px;
 }
 
-.mnArtSectP {
-    text-align: justify;
-}
-
-
-/* 
-
-
-.main__form {
+.mnArtForm {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin: 15px;
 }
 
-.main__form--input, .main__form--label, .main__form--button {
+.mnArtSectP {
+    text-align: justify;
+}
+
+.mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
     grid-column: 2 / 3;
     margin: 2px 5px;
     padding-top: 3px;
@@ -103,11 +99,11 @@ body {
     text-align: justify;
 }
 
-.main__form--input, .main__form--button {
+.mnArtFmInput, .mnArtFmButton {
     color: black;
 }
 
-.main__form--button {
+.mnArtFmButton {
     display: inline-flex;
     justify-content: center;
     color: rgb(223, 221, 221);
@@ -120,25 +116,41 @@ body {
     margin: 20px 30%;
 }
 
-p {
-    text-align: justify;
-    padding-right: 30px;
+.mnSectH1, .mnSectH2, .mnSectP {
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
-h2 {
-    font-size: xx-large;
+.mnSectH1 {
+    font-size: 25px;
     text-decoration: underline;
     text-align: center;
-    padding: 10px 15px;
+    padding: 5px 15px;
     color: yellow;
 }
 
-h4 {
+.mnSectH2 {
+    font-size: 23px;
     text-align: justify;
     text-decoration: underline;
-    padding: 10px 0;
+    padding: 5px 15px;
     color: red;
-} */
+}
+
+.mnSectH3 {
+    font-size: 19px;
+    text-align: justify;
+    text-decoration: underline;
+    padding: 5px 15px;
+    color: orange;
+}
+
+.mnSectP {
+    font-size: 17px;
+    text-align: justify;
+    padding: 5px 15px;
+}
+
 
 /* ---- INDEX ---- */
 
@@ -217,7 +229,7 @@ h4 {
 
 /* ---- HELP ---- */
 
-/* .main__form--textArea {
+.mnArtFmTextArea {
     grid-column: 2 / 3;
     margin: 2px 5px;
     padding-top: 3px;
@@ -226,37 +238,13 @@ h4 {
     height: 200px;
     width: auto;
     color: black;
-} */
+} 
 
 /* ---- LOGIN ---- */
 
 
 /* ---- SEGUIMIENTO ---- */
 
-/* .main__section--seguimiento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-.main__section--parrafo, .main__section--h4, .main__section--h5, .main__section--h6 {
-    margin-top: 10px;
-    padding-bottom: 10px;
-}
-
-.main__section--h4 {
-    font-size: 20px;
-}
-
-.main__section--h5 {
-    font-size: 18px;
-}
-
-.main__section--h6 {
-    font-size: 16px;
-}
- */
 /* ---- SING UP ---- */
 
 /* ----  Footer ---- */

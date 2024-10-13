@@ -66,40 +66,27 @@ body {
     text-decoration: none;
 }
 
-
-/* 
-
-
-.navBar__lista {
-    display: flex;
-}
-
-.navBar__lista--item {
-    padding: 10px 7px;
-}
-
-.navBar__lista--a {
-    color: white;
-    text-decoration: none;
-} */
-
 /* ---- Main ---- */
 
 #main {
     grid-area: main ;
     background-color: rgb(2, 2, 2);
 }
-/* 
-.main__article--section {
+
+.mnArtSect {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
 }
 
-.main__article__section--parrafo {
+.mnArtSectP {
     text-align: justify;
 }
+
+
+/* 
+
 
 .main__form {
     display: grid;
@@ -155,7 +142,7 @@ h4 {
 
 /* ---- INDEX ---- */
 
-/* #carouselExampleFade {
+#carouselExampleFade {
     max-width: 750px;
     height: auto;
     align-self: center;
@@ -173,7 +160,7 @@ h4 {
 #mnArtSectDivImgCarousel{
     border-radius: 30px;
     padding: 20px;
-} */
+}
 
 /* ---- ABOUT ---- */
 

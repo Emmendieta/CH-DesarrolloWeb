@@ -1,0 +1,117 @@
+/* ----  Medium ---- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ---- HEADER ---- */
+
+    .hdNavSectP {
+        text-align: center;
+        font-size: 17px;
+        padding: 0;
+    }
+
+    .hdNavSection {
+        padding: 5px;
+    }
+
+    .hdNavSectImg {
+        width: 250px;
+        height: auto;
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+    }
+
+    .hdNavUlLiA{
+        font-size: 18px;
+    }
+
+    /* ---- MAIN ---- */
+
+    /* ---- General ---- */
+
+    .mnArtForm {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 150px;
+        gap: 2px;
+    }
+    .mnArtFormLabel, .mnArtFormInput, .mnArtFormButton{
+        font-size: 10px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .mnArtFormTextArea {
+        height: 100px;
+        font-size: 10px;
+    }  
+
+    /* ---- Index ---- */
+
+    #carouselExampleFade {
+        width: 100%;
+    }
+
+    #mnArtSctDivDivCarousel {
+        width: 100%;
+    }
+
+    /* ---- Seguimiento ---- */
+
+    .mnSectH2, .mnSectH3, .mnSectP {
+        text-align: center;
+    }
+
+    .mnSectH1 {
+        font-size: 23px;
+    }
+
+    .mnSectH2 {
+        font-size: 20px;
+    }
+
+    .mnSectP {
+        font-size: 17px;
+    }
+
+    /* ---- About ---- */
+
+    #aboutVideo {
+        width: 90%;
+    }
+
+    .aboutMnSectP {
+        padding: 0 20px;
+    }
+
+    .mnSectTarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #danielScianca, #jeremiasScianca, #mateoGonzalez {
+        width: 90%;
+        height: auto;
+    }
+
+    /* ---- FOOTER ---- */
+
+    .ftTop, .ftBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ftBottom {
+        padding: 15px 0 15px 0;
+    }
+
+    .ftTopSectH1, .ftBottomSectP {
+        text-align: center;
+        padding: 0;
+    }
+}

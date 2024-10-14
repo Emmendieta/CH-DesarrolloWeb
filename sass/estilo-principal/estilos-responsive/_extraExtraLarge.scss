@@ -1,0 +1,62 @@
+/* ----  Extra Extra Large ---- */
+
+@media (min-width: 1400px) {
+
+    /* ---- HEADER ---- */
+
+    .hdNavSectImg {
+        width: 250;
+    }
+
+    .hdNavUlLiA {
+        font-size: 18px;
+    }
+
+    .hdNavSectP {
+        font-size: 18px;
+    }
+
+    /* ---- MAIN ---- */
+
+    /* ---- General ---- */
+    
+    .mnSectH1 {
+        font-size: 40px;
+    }
+
+    .mnSectH2 {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    .mnSectH3 {
+        font-size: 30px;
+    }
+
+    .mnSectP {
+        font-size: 20px;
+    }
+
+    .mnArtSectP {
+        margin: 20px;
+    }
+
+    /* ---- Seguimiento ---- */
+
+    .mnSectH2, .mnSectH3, .mnSectP {
+        text-align: center;
+    }
+
+    /* ---- About ---- */
+
+    #aboutVideo {
+        width: 1200px;
+    }
+
+    .mnSectTarjetas {
+        display: flex;
+        width: fit-content;
+        margin: 10px 50px;
+    }
+    
+}

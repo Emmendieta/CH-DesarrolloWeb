@@ -1,0 +1,77 @@
+/* ---- ABOUT ---- */
+
+#aboutVideo {
+    width: 75%;
+    height: auto;
+}
+
+.mnSectVideo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.mnSectTarjetas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin: 25px 0;
+    padding: 15px;
+}
+
+.card {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+}
+
+#danielScianca {
+    grid-column: 1;
+}
+
+#jeremiasScianca {
+    grid-column: 2;
+}
+
+#mateoGonzalez {
+    grid-column: 3;
+}
+
+.card-text {
+    color: black;
+}
+
+.btn-secondary {
+    background-color: red;
+}
+
+.aboutMnH1 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 15px 0;
+    color: blue;
+}
+
+.mnSectH1OMVS {
+    text-decoration: underline;
+    font-size: 25px;
+    color: rgb(134, 81, 81);
+    padding-left: 15px;
+}
+
+.aboutMnSectP, .mnSectPOMVS {
+    font-size: 15px;
+    padding: 0 20px 0 15px;
+    text-align: justify;
+}
+
+.card-title {
+    color: azure;
+    text-decoration: underline;
+}
+
+.card-text {
+    text-align: justify;
+}

@@ -1,3 +1,4 @@
+/* ---- IMPORTS GENERALES ---- */
 /* IMPORT RESET */
 /* ---- RESET CSS ---- */
 * {
@@ -60,40 +61,7 @@ body {
   text-decoration: none;
 }
 
-/* IMPORT FOOTER */
-/* ----  Footer ---- */
-#footer {
-  grid-area: footer;
-  background-color: rgb(8, 8, 8);
-  border-top: 3px rgb(44, 42, 42) solid;
-}
-
-#footer div {
-  display: flex;
-}
-
-.ftTop {
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px;
-}
-
-.ftBottom {
-  border-top: 3px rgb(44, 42, 42) solid;
-  align-items: center;
-  justify-content: center;
-  padding-top: 15px;
-}
-
-.ftTopSectLink, .ftBottomSectLink {
-  margin: 10px 5px;
-  padding-left: 10px;
-}
-
-.ftBottomSectP, .ftBottomSectLink i {
-  color: #F7C683;
-}
-
+/* IMPORT MAIN */
 /* ---- Main ---- */
 #main {
   grid-area: main;
@@ -178,6 +146,42 @@ body {
   padding: 5px 15px;
 }
 
+/* IMPORT FOOTER */
+/* ----  Footer ---- */
+#footer {
+  grid-area: footer;
+  background-color: rgb(8, 8, 8);
+  border-top: 3px rgb(44, 42, 42) solid;
+}
+
+#footer div {
+  display: flex;
+}
+
+.ftTop {
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.ftBottom {
+  border-top: 3px rgb(44, 42, 42) solid;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.ftTopSectLink, .ftBottomSectLink {
+  margin: 10px 5px;
+  padding-left: 10px;
+}
+
+.ftBottomSectP, .ftBottomSectLink i {
+  color: #F7C683;
+}
+
+/* ---- IMPORTS PAGES ---- */
+/* IMPORT INDEX */
 /* ---- INDEX ---- */
 #carouselExampleFade {
   max-width: 750px;
@@ -199,6 +203,7 @@ body {
   padding: 20px;
 }
 
+/* IMPORT ABOUT */
 /* ---- ABOUT ---- */
 #aboutVideo {
   width: 75%;
@@ -276,6 +281,7 @@ body {
   text-align: justify;
 }
 
+/* IMPORT HELP */
 /* ---- HELP ---- */
 .mnArtFmTextArea {
   grid-column: 2/3;
@@ -294,10 +300,8 @@ body {
   color: #F7C683;
 }
 
-/* ---- LOGIN ---- */
-/* ---- SEGUIMIENTO ---- */
-/* ---- SING UP ---- */
-/* ----  RESPONSIVE ---- */
+/* ---- RESPONSIVE ---- */
+/* IMPORT EXTRA SMALL */
 /* ----  Extra Small ---- */
 @media (max-width: 575px) {
   /* ---- HEADER ---- */
@@ -414,6 +418,7 @@ body {
     padding: 0 10px;
   }
 }
+/* IMPORT SMALL */
 /* ----  Small ---- */
 @media (min-width: 576px) and (max-width: 767px) {
   /* ---- HEADER ---- */
@@ -533,6 +538,7 @@ body {
     padding: 0 10px;
   }
 }
+/* IMPORT MEDIUM */
 /* ----  Medium ---- */
 @media (min-width: 768px) and (max-width: 991px) {
   /* ---- HEADER ---- */
@@ -622,6 +628,7 @@ body {
     padding: 0;
   }
 }
+/* IMPORT LARGE */
 /* ----  Large ---- */
 @media (min-width: 992px) and (max-width: 1119px) {
   /* ---- HEADER ---- */
@@ -727,10 +734,10 @@ body {
     padding: 0;
   }
 }
+/* IMPORT EXTRA LARGE */
 /* ----  Extra Large ---- */
 @media (min-width: 1200px) and (max-width: 1399px) {
   /* ---- Main ---- */
-  /* ---- Seguimiento ---- */
   /* ---- Seguimiento ---- */
   .mnSectH2, .mnSectH3, .mnSectP {
     text-align: center;
@@ -748,6 +755,7 @@ body {
     width: 1050px;
   }
 }
+/* IMPORT EXTRA EXTRA LARGE */
 /* ----  Extra Extra Large ---- */
 @media (min-width: 1400px) {
   /* ---- HEADER ---- */

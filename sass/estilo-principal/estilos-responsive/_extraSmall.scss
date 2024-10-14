@@ -1,0 +1,152 @@
+/* ----  Extra Small ---- */
+
+@media (max-width: 575px) {
+
+    /* ---- HEADER ---- */
+
+    p {
+        padding: 10px;
+        text-align: justify;
+        padding-right: 15px;
+    }
+
+    #hdNavBar div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hdNavSection {
+        padding: 5px;
+    }
+
+    .hdNavSectImg {
+        width: 150px;
+        height: auto;
+    }
+
+    .hdNavSectP {
+        text-align: center;
+        padding: 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+    }
+
+    .hdNavUlLiA {
+        font-size: 15px;
+    }
+
+    /* ---- MAIN ---- */
+
+    /* ---- General ---- */
+
+    .mnArtForm {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 15px;
+        gap: 2px;
+    }
+    
+    .mnArtFmLabel, .mmnArtFmInput, .mnArtFmButton {
+        font-size: 12px;
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .mnArtFmTextArea {
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .mnArtFmButton {
+        display: inline-flex;
+        justify-content: center;
+        color: rgb(223, 221, 221);
+        background-color: rgb(8, 75, 8);
+        text-align: center;
+        cursor: pointer;
+        padding: 5px 10px; 
+        border-radius: 4px; 
+        margin: 20px 30%;
+    }
+
+    .mnArtSectP {
+        padding: 0 10px;
+    }
+
+    /* ---- Index ---- */
+
+    #carouselExampleFade {
+        width: 90%;
+    }
+
+
+    #mnArtSctDivDivCarousel {
+        width: 100%;
+    }
+
+    /* ---- About ---- */
+
+    .mnSectTarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3px 20px;
+    }
+
+    .mnSectH1OMVS {
+        font-size: 18px;
+    }
+
+    .mnSectPOMVS {
+        font-size: 13px;
+    }
+
+    /* ---- Help ---- */
+
+    .helpMnSectP {
+        margin-bottom: 0;
+        text-align: justify;
+    }
+
+    /* ---- Seguimiento ---- */
+
+    .mnSectH1, .mnSectH2, .mnSectH3, .mnSectP {
+        text-align: center;
+    }
+
+    .mnSectH1 {
+        font-size: 22px;
+    }
+
+    .mnSectH2 {
+        font-size: 19px;
+    }
+
+    .mnSectH3 {
+        font-size: 15px;
+    }
+
+    .mnSectP {
+        font-size: 12px;
+    }
+
+    /* ---- FOOTER ---- */
+
+    .ftTop, .ftBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ftBottom {
+        padding: 15px 0 15px 0;
+    }
+
+    .ftTopSectH1, .ftBottomSectP {
+        text-align: center;
+        padding: 0 10px;
+    }
+}

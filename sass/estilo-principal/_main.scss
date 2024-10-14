@@ -48,10 +48,6 @@
     }
 
     .mnSectSeguimiento {
-        .mnSectH1, .mnSectH2, .mnSectP {
-            margin-top: 10px;
-            padding-bottom: 10px;
-        }
         
         .mnSectH1 {
             font-size: 25px;
@@ -59,19 +55,23 @@
             text-align: center;
             padding: 5px 15px;
             color: yellow;
+            margin-top: 10px;
+            padding-bottom: 10px;
         }
         
         .mnSectH2 {
             font-size: 23px;
-            text-align: justify;
+            text-align: center;
             text-decoration: underline;
             padding: 5px 15px;
             color: red;
+            margin-top: 10px;
+            padding-bottom: 10px;
         }
         
         .mnSectH3 {
             font-size: 19px;
-            text-align: justify;
+            text-align: center;
             text-decoration: underline;
             padding: 5px 15px;
             color: orange;
@@ -79,9 +79,11 @@
         
         .mnSectP {
             font-size: 17px;
-            text-align: justify;
+            text-align: center;
             padding: 5px 15px;
-        }
+            margin-top: 10px;
+            padding-bottom: 10px;
+        }  
     }
 }
 

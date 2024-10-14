@@ -26,11 +26,17 @@
                 .navbar-toggler-icon {
                     width: 20px;
                 }
+                
+                .offcanvas-body {
 
-                .hdNavUlLiA {
-                    font-size: 15px;
+                    .navbar-nav {
+
+                        .hdNavUlLiA {
+                            font-size: 15px;
+                        } 
+
+                    }
                 }
-
             }
         }
 
@@ -80,76 +86,100 @@
 
     /* ---- Index ---- */
 
-    #carouselExampleFade {
-        width: 90%;
-    }
+    #main {
 
+        #carouselExampleFade {
+            width: 90%;
+    
+            #mnArtSctDivDivCarousel {
+                width: 100%;
+            }
+        }
 
-    #mnArtSctDivDivCarousel {
-        width: 100%;
     }
 
     /* ---- About ---- */
 
-    .mnSectTarjetas {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 3px 20px;
-    }
+    #main {
 
-    .mnSectH1OMVS {
-        font-size: 18px;
-    }
+        .mnSectTarjetas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 3px 20px;
+        }
+    
+        .mnSectH1OMVS {
+            font-size: 18px;
+        }
+    
+        .mnSectPOMVS {
+            font-size: 13px;
+        }
 
-    .mnSectPOMVS {
-        font-size: 13px;
     }
 
     /* ---- Help ---- */
 
-    .helpMnSectP {
-        margin-bottom: 0;
-        text-align: justify;
+    #main {
+
+        .helpMnSectP {
+            margin-bottom: 0;
+            text-align: justify;
+        }
+
     }
 
     /* ---- Seguimiento ---- */
 
-    .mnSectH1, .mnSectH2, .mnSectH3, .mnSectP {
-        text-align: center;
-    }
+    #main {
 
-    .mnSectH1 {
-        font-size: 22px;
-    }
+        .mnSectSeguimiento {
 
-    .mnSectH2 {
-        font-size: 19px;
-    }
+            .mnSectH1, .mnSectH2, .mnSectH3, .mnSectP {
+                text-align: center;
+            }
+        
+            .mnSectH1 {
+                font-size: 22px;
+            }
+        
+            .mnSectH2 {
+                font-size: 19px;
+            }
+        
+            .mnSectH3 {
+                font-size: 15px;
+            }
+        
+            .mnSectP {
+                font-size: 12px;
+            }
+            
+        }
 
-    .mnSectH3 {
-        font-size: 15px;
-    }
-
-    .mnSectP {
-        font-size: 12px;
-    }
+    }     
 
     /* ---- FOOTER ---- */
 
-    .ftTop, .ftBottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    #footer {
 
-        .ftTopSectH1, .ftBottomSectP {
+        .ftTop, .ftBottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             text-align: center;
-            padding: 0 10px;
+            font-size: 12px;
+    
+            .ftTopSectH1, .ftBottomSectP {
+                text-align: center;
+                padding: 0 10px;
+            }
+        }
+    
+        .ftBottom {
+            padding: 15px 0 15px 0;
         }
     }
-
-    .ftBottom {
-        padding: 15px 0 15px 0;
-    }
+    
 }

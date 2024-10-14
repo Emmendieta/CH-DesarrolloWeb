@@ -6,24 +6,33 @@
 
     /* ---- Seguimiento ---- */
 
-    .mnSectH2, .mnSectH3, .mnSectP {
-        text-align: center;
+    #main {
+
+        .mnSectH2, .mnSectH3, .mnSectP {
+            text-align: center;
+        }
+
     }
 
     /* ---- ABOUT ---- */
 
-    .mnArtSectH1, .mnArtSectP {
-        padding-left: 15px;
+    #main {
+
+        .mnArtSectH1, .mnArtSectP {
+            padding-left: 15px;
+        }
+    
+        .mnSectTarjetas {
+            display: flex;
+            width: fit-content;
+            margin: 10px 50px;
+        }
+    
+        #aboutVideo {
+            width: 1050px;
+        } 
     }
 
-    .mnSectTarjetas {
-        display: flex;
-        width: fit-content;
-        margin: 10px 50px;
-    }
 
-    #aboutVideo {
-        width: 1050px;
-    }
 
 }

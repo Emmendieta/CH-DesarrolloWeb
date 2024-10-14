@@ -1,3 +1,5 @@
+/* ---- VARIABLES ---- */
+/* $variable: 15px; */
 /* ---- IMPORTS GENERALES ---- */
 /* IMPORT RESET */
 /* ---- RESET CSS ---- */
@@ -10,7 +12,6 @@
   color: white;
 }
 
-/* ---- GENERAL ---- */
 html, body {
   height: 100%;
   width: auto;
@@ -30,32 +31,26 @@ body {
 #header {
   grid-area: header;
 }
-
-#hdNavBar {
+#header #hdNavBar {
   display: flex;
   justify-content: space-between;
   background-color: rgb(8, 8, 8);
   border-bottom: 3px rgb(44, 42, 42) solid;
   align-items: center;
 }
-
-.hdNavSection {
+#header #hdNavBar .hdNavSection {
   padding: 10px 15px;
 }
-
-.hdNavSectImg {
+#header #hdNavBar .hdNavSection .hdNavSectImg {
   width: 250px;
 }
-
-.navbar-nav {
+#header #hdNavBar .navbar-nav {
   text-align: center;
 }
-
-.hdNavUlLi {
+#header #hdNavBar .navbar-nav .hdNavUlLi {
   margin-bottom: 20px;
 }
-
-.hdNavUlLiA {
+#header #hdNavBar .navbar-nav .hdNavUlLi .hdNavUlLiA {
   font-size: 25px;
   color: #F7C683;
   text-decoration: none;
@@ -67,38 +62,32 @@ body {
   grid-area: main;
   background-color: rgb(2, 2, 2);
 }
-
-.mnArtSect {
+#main .mnArtSect {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
-
-.mnArtForm {
+#main .mnArtSect .mnArtSectP {
+  text-align: justify;
+}
+#main .mnArtForm {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin: 15px;
 }
-
-.mnArtSectP {
-  text-align: justify;
-}
-
-.mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
+#main .mnArtForm .mnArtFmLabel, #main .mnArtForm .mnArtFmInput, #main .mnArtForm .mnArtFmButton {
   grid-column: 2/3;
   margin: 2px 5px;
   padding-top: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: justify;
 }
-
-.mnArtFmInput, .mnArtFmButton {
+#main .mnArtForm .mnArtFmInput, #main .mnArtForm .mnArtFmButton {
   color: black;
 }
-
-.mnArtFmButton {
+#main .mnArtForm .mnArtFmButton {
   display: inline-flex;
   justify-content: center;
   color: rgb(223, 221, 221);
@@ -110,40 +99,37 @@ body {
   border-radius: 4px;
   margin: 20px 30%;
 }
-
-.mnSectH1, .mnSectH2, .mnSectP {
-  margin-top: 10px;
-  padding-bottom: 10px;
-}
-
-.mnSectH1 {
+#main .mnSectSeguimiento .mnSectH1 {
   font-size: 25px;
   text-decoration: underline;
   text-align: center;
   padding: 5px 15px;
   color: yellow;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
-
-.mnSectH2 {
+#main .mnSectSeguimiento .mnSectH2 {
   font-size: 23px;
-  text-align: justify;
+  text-align: center;
   text-decoration: underline;
   padding: 5px 15px;
   color: red;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
-
-.mnSectH3 {
+#main .mnSectSeguimiento .mnSectH3 {
   font-size: 19px;
-  text-align: justify;
+  text-align: center;
   text-decoration: underline;
   padding: 5px 15px;
   color: orange;
 }
-
-.mnSectP {
+#main .mnSectSeguimiento .mnSectP {
   font-size: 17px;
-  text-align: justify;
+  text-align: center;
   padding: 5px 15px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* IMPORT FOOTER */
@@ -153,30 +139,28 @@ body {
   background-color: rgb(8, 8, 8);
   border-top: 3px rgb(44, 42, 42) solid;
 }
-
-#footer div {
+#footer .ftTop {
   display: flex;
-}
-
-.ftTop {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
 }
-
-.ftBottom {
+#footer .ftTop .ftTopSectLink {
+  margin: 10px 5px;
+  padding-left: 10px;
+}
+#footer .ftBottom {
+  display: flex;
   border-top: 3px rgb(44, 42, 42) solid;
   align-items: center;
   justify-content: center;
   padding-top: 15px;
 }
-
-.ftTopSectLink, .ftBottomSectLink {
+#footer .ftBottom .ftBottomSectLink {
   margin: 10px 5px;
   padding-left: 10px;
 }
-
-.ftBottomSectP, .ftBottomSectLink i {
+#footer .ftBottom .ftBottomSectP, #footer .ftBottom .ftBottomSectLink i {
   color: #F7C683;
 }
 
@@ -188,32 +172,35 @@ body {
   height: auto;
   align-self: center;
 }
-
-#mnArtSctDivDivCarousel {
+#carouselExampleFade #mnArtSctDivDivCarousel {
   width: 750px;
   height: auto;
 }
-
-#mnArtSectDivbtn {
-  background-color: black;
-}
-
-#mnArtSectDivImgCarousel {
+#carouselExampleFade #mnArtSctDivDivCarousel #mnArtSectDivImgCarousel {
   border-radius: 30px;
   padding: 20px;
+}
+#carouselExampleFade #mnArtSectDivbtn {
+  background-color: black;
 }
 
 /* IMPORT ABOUT */
 /* ---- ABOUT ---- */
-#aboutVideo {
-  width: 75%;
-  height: auto;
+.aboutMnH1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 15px 0;
+  color: blue;
 }
 
 .mnSectVideo {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 15px;
+}
+.mnSectVideo #aboutVideo {
+  width: 75%;
+  height: auto;
 }
 
 .mnSectTarjetas {
@@ -225,38 +212,30 @@ body {
   margin: 25px 0;
   padding: 15px;
 }
-
-.card {
+.mnSectTarjetas #danielScianca {
+  grid-column: 1;
+}
+.mnSectTarjetas #jeremiasScianca {
+  grid-column: 2;
+}
+.mnSectTarjetas #mateoGonzalez {
+  grid-column: 3;
+}
+.mnSectTarjetas .card {
   background-color: grey;
   width: 100%;
   height: auto;
 }
-
-#danielScianca {
-  grid-column: 1;
-}
-
-#jeremiasScianca {
-  grid-column: 2;
-}
-
-#mateoGonzalez {
-  grid-column: 3;
-}
-
-.card-text {
+.mnSectTarjetas .card .card-text {
   color: black;
+  text-align: justify;
 }
-
-.btn-secondary {
-  background-color: red;
-}
-
-.aboutMnH1 {
-  text-align: center;
+.mnSectTarjetas .card .card-title {
+  color: azure;
   text-decoration: underline;
-  margin: 15px 0;
-  color: blue;
+}
+.mnSectTarjetas .card .btn-secondary {
+  background-color: red;
 }
 
 .mnSectH1OMVS {
@@ -272,18 +251,9 @@ body {
   text-align: justify;
 }
 
-.card-title {
-  color: azure;
-  text-decoration: underline;
-}
-
-.card-text {
-  text-align: justify;
-}
-
 /* IMPORT HELP */
 /* ---- HELP ---- */
-.mnArtFmTextArea {
+.helpMnSection .mnArtFmTextArea {
   grid-column: 2/3;
   margin: 2px 5px;
   padding-top: 3px;
@@ -293,8 +263,7 @@ body {
   width: auto;
   color: black;
 }
-
-.helpMnSectP {
+.helpMnSection .helpMnSectP {
   padding: 20px;
   text-align: center;
   color: #F7C683;
@@ -305,50 +274,48 @@ body {
 /* ----  Extra Small ---- */
 @media (max-width: 575px) {
   /* ---- HEADER ---- */
-  p {
-    padding: 10px;
-    text-align: justify;
-    padding-right: 15px;
-  }
-  #hdNavBar div {
+  #header #hdNavBar div {
     display: flex;
     flex-direction: column;
   }
-  .hdNavSection {
+  #header #hdNavBar div .hdNavSection {
     padding: 5px;
   }
-  .hdNavSectImg {
+  #header #hdNavBar div .hdNavSection .hdNavSectImg {
     width: 150px;
     height: auto;
   }
-  .hdNavSectP {
+  #header #hdNavBar div .hdNavSection .hdNavSectP {
     text-align: center;
     padding: 0;
   }
-  .navbar-toggler-icon {
+  #header #hdNavBar div .hdNavSection .navbar-toggler-icon {
     width: 20px;
   }
-  .hdNavUlLiA {
+  #header #hdNavBar div .hdNavSection .offcanvas-body .navbar-nav .hdNavUlLiA {
     font-size: 15px;
   }
   /* ---- MAIN ---- */
   /* ---- General ---- */
-  .mnArtForm {
+  #main .mnArtSectP {
+    padding: 0 10px;
+  }
+  #main .mnArtForm {
     display: flex;
     flex-direction: column;
     margin: 15px 15px;
     gap: 2px;
   }
-  .mnArtFmLabel, .mmnArtFmInput, .mnArtFmButton {
+  #main .mnArtForm .mnArtFmLabel, #main .mnArtForm .mmnArtFmInput, #main .mnArtForm .mnArtFmButton {
     font-size: 12px;
     margin: 2px;
     padding: 2px;
   }
-  .mnArtFmTextArea {
+  #main .mnArtForm .mnArtFmTextArea {
     height: 100px;
     font-size: 10px;
   }
-  .mnArtFmButton {
+  #main .mnArtForm .mnArtFmButton {
     display: inline-flex;
     justify-content: center;
     color: rgb(223, 221, 221);
@@ -359,93 +326,86 @@ body {
     border-radius: 4px;
     margin: 20px 30%;
   }
-  .mnArtSectP {
-    padding: 0 10px;
-  }
   /* ---- Index ---- */
-  #carouselExampleFade {
+  #main #carouselExampleFade {
     width: 90%;
   }
-  #mnArtSctDivDivCarousel {
+  #main #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
   }
   /* ---- About ---- */
-  .mnSectTarjetas {
+  #main .mnSectTarjetas {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3px 20px;
   }
-  .mnSectH1OMVS {
+  #main .mnSectH1OMVS {
     font-size: 18px;
   }
-  .mnSectPOMVS {
+  #main .mnSectPOMVS {
     font-size: 13px;
   }
   /* ---- Help ---- */
-  .helpMnSectP {
+  #main .helpMnSectP {
     margin-bottom: 0;
     text-align: justify;
   }
   /* ---- Seguimiento ---- */
-  .mnSectH1, .mnSectH2, .mnSectH3, .mnSectP {
+  #main .mnSectSeguimiento .mnSectH1, #main .mnSectSeguimiento .mnSectH2, #main .mnSectSeguimiento .mnSectH3, #main .mnSectSeguimiento .mnSectP {
     text-align: center;
   }
-  .mnSectH1 {
+  #main .mnSectSeguimiento .mnSectH1 {
     font-size: 22px;
   }
-  .mnSectH2 {
+  #main .mnSectSeguimiento .mnSectH2 {
     font-size: 19px;
   }
-  .mnSectH3 {
+  #main .mnSectSeguimiento .mnSectH3 {
     font-size: 15px;
   }
-  .mnSectP {
+  #main .mnSectSeguimiento .mnSectP {
     font-size: 12px;
   }
   /* ---- FOOTER ---- */
-  .ftTop, .ftBottom {
+  #footer .ftTop, #footer .ftBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    font-size: 12px;
   }
-  .ftBottom {
-    padding: 15px 0 15px 0;
-  }
-  .ftTopSectH1, .ftBottomSectP {
+  #footer .ftTop .ftTopSectH1, #footer .ftTop .ftBottomSectP, #footer .ftBottom .ftTopSectH1, #footer .ftBottom .ftBottomSectP {
     text-align: center;
     padding: 0 10px;
+  }
+  #footer .ftBottom {
+    padding: 15px 0 15px 0;
   }
 }
 /* IMPORT SMALL */
 /* ----  Small ---- */
 @media (min-width: 576px) and (max-width: 767px) {
   /* ---- HEADER ---- */
-  p {
-    padding: 10px;
-    text-align: justify;
-    padding-right: 15px;
-  }
-  #hdNavBar div {
+  #header #hdNavBar div {
     display: flex;
     flex-direction: column;
   }
-  .hdNavSection {
+  #header #hdNavBar div .hdNavSection {
     padding: 5px;
   }
-  .hdNavSectImg {
+  #header #hdNavBar div .hdNavSection .hdNavSectImg {
     width: 150px;
     height: auto;
   }
-  .hdNavSectP {
+  #header #hdNavBar div .hdNavSection .hdNavSectP {
     text-align: center;
     padding: 0;
   }
-  .navbar-toggler-icon {
+  #header #hdNavBar div .hdNavSection .navbar-toggler-icon {
     width: 20px;
   }
-  .hdNavUlLiA {
+  #header #hdNavBar div .hdNavSection .hdNavUlLiA {
     font-size: 15px;
   }
   /* ---- MAIN ---- */
@@ -453,19 +413,19 @@ body {
   .mnArtForm {
     display: flex;
     flex-direction: column;
-    margin: 10px 60px;
+    margin: 10px 0;
     gap: 2px;
   }
-  .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
+  .mnArtForm .mnArtFmLabel, .mnArtForm .mnArtFmInput, .mnArtForm .mnArtFmButton {
     font-size: 14px;
     margin: 2px;
     padding: 2px;
   }
-  .mnArtFmTexArea {
-    height: 100px;
+  .mnArtForm .mnArtFmTextArea {
+    height: 300px;
     font-size: 14px;
   }
-  .mnArtFmButton {
+  .mnArtForm .mnArtFmButton {
     display: inline-flex;
     justify-content: center;
     color: rgb(223, 221, 221);
@@ -483,7 +443,7 @@ body {
   #carouselExampleFade {
     width: 100%;
   }
-  #mnArtSctDivDivCarousel {
+  #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
   }
   /* ---- About ---- */
@@ -524,16 +484,16 @@ body {
     font-size: 15px;
   }
   /* ---- FOOTER ---- */
-  .ftTop, .ftBottom {
+  #footer .ftBottom {
+    padding: 15px 0 15px 0;
+  }
+  #footer .ftTop, #footer .ftBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .ftBottom {
-    padding: 15px 0 15px 0;
-  }
-  .ftTopSectH1, .ftBottomSectP {
+  #footer .ftTop .ftTopSectH1, #footer .ftTop .ftBottomSectP, #footer .ftBottom .ftTopSectH1, #footer .ftBottom .ftBottomSectP {
     text-align: center;
     padding: 0 10px;
   }
@@ -542,22 +502,22 @@ body {
 /* ----  Medium ---- */
 @media (min-width: 768px) and (max-width: 991px) {
   /* ---- HEADER ---- */
-  .hdNavSectP {
+  #header .hdNavSection {
+    padding: 5px;
+  }
+  #header .hdNavSection .hdNavSectP {
     text-align: center;
     font-size: 17px;
     padding: 0;
   }
-  .hdNavSection {
-    padding: 5px;
-  }
-  .hdNavSectImg {
+  #header .hdNavSection .hdNavSectImg {
     width: 250px;
     height: auto;
   }
-  .navbar-toggler-icon {
+  #header .hdNavSection .navbar-toggler-icon {
     width: 25px;
   }
-  .hdNavUlLiA {
+  #header .hdNavSection .hdNavUlLiA {
     font-size: 18px;
   }
   /* ---- MAIN ---- */
@@ -568,12 +528,12 @@ body {
     margin: 10px 150px;
     gap: 2px;
   }
-  .mnArtFormLabel, .mnArtFormInput, .mnArtFormButton {
-    font-size: 10px;
+  .mnArtForm .mnArtFmLabel, .mnArtForm .mnArtFmInput, .mnArtForm .mnArtFmButton {
+    font-size: 14px;
     margin: 2px;
     padding: 2px;
   }
-  .mnArtFormTextArea {
+  .mnArtForm .mnArtFmTextArea {
     height: 100px;
     font-size: 10px;
   }
@@ -581,7 +541,7 @@ body {
   #carouselExampleFade {
     width: 100%;
   }
-  #mnArtSctDivDivCarousel {
+  #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
   }
   /* ---- Seguimiento ---- */
@@ -609,21 +569,21 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  #danielScianca, #jeremiasScianca, #mateoGonzalez {
+  .mnSectTarjetas #danielScianca, .mnSectTarjetas #jeremiasScianca, .mnSectTarjetas #mateoGonzalez {
     width: 90%;
     height: auto;
   }
   /* ---- FOOTER ---- */
-  .ftTop, .ftBottom {
+  #footer .ftBottom {
+    padding: 15px 0 15px 0;
+  }
+  #footer .ftTop, #footer .ftBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .ftBottom {
-    padding: 15px 0 15px 0;
-  }
-  .ftTopSectH1, .ftBottomSectP {
+  #footer .ftTop .ftTopSectH1, #footer .ftTop .ftBottomSectP, #footer .ftBottom .ftTopSectH1, #footer .ftBottom .ftBottomSectP {
     text-align: center;
     padding: 0;
   }
@@ -632,41 +592,41 @@ body {
 /* ----  Large ---- */
 @media (min-width: 992px) and (max-width: 1119px) {
   /* ---- HEADER ---- */
-  #hdNavBar {
+  #header #hdNavBar {
     display: flex;
     align-items: center;
   }
-  .hdNavSectP {
+  #header #hdNavBar .hdNavSectP {
     text-align: center;
     font-size: 18px;
     padding: 0;
   }
-  .hdNavSectImg {
+  #header #hdNavBar .hdNavSectImg {
     width: 200px;
     height: auto;
   }
-  .hdNavUlLiA {
-    font-size: 18px;
+  #header #hdNavBar .navbar-nav .hdNavUlLi .hdNavUlLiA {
+    font-size: 25px;
   }
   /* ---- MAIN ---- */
   /* ---- General ---- */
-  .mnArtForm {
+  #main .mnArticle .mnArtForm {
     display: flex;
     flex-direction: column;
     margin: 10px 200px;
     padding: 0 100px;
     gap: 2px;
   }
-  .mnArtFormLabel, .mnArtFormInput, .mnArtFormButton {
+  #main .mnArticle .mnArtForm .mnArtFmLabel, #main .mnArticle .mnArtForm .mnArtFmInput, #main .mnArticle .mnArtForm .mnArtFmButton {
     font-size: 16px;
     margin: 2px;
     padding: 2px;
   }
-  .mnArtFormTextArea {
+  #main .mnArticle .mnArtForm .mnArtFmTextArea {
     height: 100px;
     font-size: 16px;
   }
-  .mnArtFormButton {
+  #main .mnArticle .mnArtForm .mnArtFmButton {
     display: inline-flex;
     justify-content: center;
     color: rgb(223, 221, 221);
@@ -677,17 +637,11 @@ body {
     border-radius: 4px;
     margin: 20px 30%;
   }
-  .main__section--h4 {
-    padding: 5px 25px;
-  }
-  .main__section--parrafo {
-    padding: 0 20px;
-  }
   /* ---- Index ---- */
   #carouselExampleFade {
     width: 100%;
   }
-  #mnArtSctDivDivCarousel {
+  #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
   }
   /* ---- Seguimiento ---- */
@@ -715,21 +669,21 @@ body {
     flex-direction: column;
     align-items: center;
   }
-  #danielScianca, #jeremiasScianca, #mateoGonzalez {
+  .mnSectTarjetas #danielScianca, .mnSectTarjetas #jeremiasScianca, .mnSectTarjetas #mateoGonzalez {
     width: 90%;
     height: auto;
   }
   /* ---- FOOTER ---- */
-  .ftTop, .ftBottom {
+  #footer .ftBottom {
+    padding: 15px 0 15px 0;
+  }
+  #footer .ftTop, #footer .ftBottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .ftBottom {
-    padding: 15px 0 15px 0;
-  }
-  .ftTopSectH1, .ftBottomSectP, .ftTopSectP {
+  #footer .ftTop .ftTopSectH1, #footer .ftTop .ftBottomSectP, #footer .ftTop .ftTopSectP, #footer .ftBottom .ftTopSectH1, #footer .ftBottom .ftBottomSectP, #footer .ftBottom .ftTopSectP {
     text-align: center;
     padding: 0;
   }
@@ -739,19 +693,19 @@ body {
 @media (min-width: 1200px) and (max-width: 1399px) {
   /* ---- Main ---- */
   /* ---- Seguimiento ---- */
-  .mnSectH2, .mnSectH3, .mnSectP {
+  #main .mnSectH2, #main .mnSectH3, #main .mnSectP {
     text-align: center;
   }
   /* ---- ABOUT ---- */
-  .mnArtSectH1, .mnArtSectP {
+  #main .mnArtSectH1, #main .mnArtSectP {
     padding-left: 15px;
   }
-  .mnSectTarjetas {
+  #main .mnSectTarjetas {
     display: flex;
     width: fit-content;
     margin: 10px 50px;
   }
-  #aboutVideo {
+  #main #aboutVideo {
     width: 1050px;
   }
 }
@@ -759,42 +713,39 @@ body {
 /* ----  Extra Extra Large ---- */
 @media (min-width: 1400px) {
   /* ---- HEADER ---- */
-  .hdNavSectImg {
+  #header .hdNavSectImg {
     width: 250;
   }
-  .hdNavUlLiA {
+  #header .hdNavUlLiA {
     font-size: 18px;
   }
-  .hdNavSectP {
+  #header .hdNavSectP {
     font-size: 18px;
   }
   /* ---- MAIN ---- */
   /* ---- General ---- */
-  .mnSectH1 {
+  #main .mnSectH1 {
     font-size: 40px;
   }
-  .mnSectH2 {
+  #main .mnSectH2 {
     font-size: 35px;
     margin-left: 20px;
   }
-  .mnSectH3 {
+  #main .mnSectH3 {
     font-size: 30px;
   }
-  .mnSectP {
+  #main .mnSectP {
     font-size: 20px;
   }
-  .mnArtSectP {
+  #main .mnArtSectP {
     margin: 20px;
   }
   /* ---- Seguimiento ---- */
-  .mnSectH2, .mnSectH3, .mnSectP {
-    text-align: center;
-  }
   /* ---- About ---- */
-  #aboutVideo {
+  #main #aboutVideo {
     width: 1200px;
   }
-  .mnSectTarjetas {
+  #main .mnSectTarjetas {
     display: flex;
     width: fit-content;
     margin: 10px 50px;

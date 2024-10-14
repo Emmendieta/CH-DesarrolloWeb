@@ -5,29 +5,32 @@
     background-color: rgb(8, 8, 8);
     border-top: 3px rgb(44, 42, 42) solid;
 
-    #footer div {
-        display: flex;
-    }
-
     .ftTop {
+        display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 15px;
 
-        .ftTopSectLink, .ftBottomSectLink {
+        .ftTopSectLink {
             margin: 10px 5px;
             padding-left: 10px;
         }
     }
 
     .ftBottom {
+        display: flex;
         border-top: 3px rgb(44, 42, 42) solid;
         align-items: center;
         justify-content: center;
         padding-top: 15px;
 
+        .ftBottomSectLink {
+            margin: 10px 5px;
+            padding-left: 10px;
+        }
+
         .ftBottomSectP, .ftBottomSectLink i {
             color: #F7C683;
-        }
+        } 
     }
 }

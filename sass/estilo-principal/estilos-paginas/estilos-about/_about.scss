@@ -15,7 +15,7 @@
     #aboutVideo {
         width: 75%;
         height: auto;
-    }
+    } 
 }
 
 .mnSectTarjetas {
@@ -27,22 +27,22 @@
     margin: 25px 0;
     padding: 15px;
 
+    #danielScianca {
+        grid-column: 1;
+    }
+    
+    #jeremiasScianca {
+        grid-column: 2;
+    }
+    
+    #mateoGonzalez {
+        grid-column: 3;
+    }
+
     .card {
         background-color: grey;
         width: 100%;
         height: auto;
-
-        #danielScianca {
-            grid-column: 1;
-        }
-        
-        #jeremiasScianca {
-            grid-column: 2;
-        }
-        
-        #mateoGonzalez {
-            grid-column: 3;
-        }
 
         .card-text {
             color: black;

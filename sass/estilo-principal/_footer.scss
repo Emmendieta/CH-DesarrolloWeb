@@ -4,30 +4,30 @@
     grid-area: footer;
     background-color: rgb(8, 8, 8);
     border-top: 3px rgb(44, 42, 42) solid;
-}
 
-#footer div {
-    display: flex;
-}
+    #footer div {
+        display: flex;
+    }
 
-.ftTop {
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-}
+    .ftTop {
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
 
-.ftBottom {
-    border-top: 3px rgb(44, 42, 42) solid;
-    align-items: center;
-    justify-content: center;
-    padding-top: 15px;
-}
+        .ftTopSectLink, .ftBottomSectLink {
+            margin: 10px 5px;
+            padding-left: 10px;
+        }
+    }
 
-.ftTopSectLink, .ftBottomSectLink {
-    margin: 10px 5px;
-    padding-left: 10px;
-}
+    .ftBottom {
+        border-top: 3px rgb(44, 42, 42) solid;
+        align-items: center;
+        justify-content: center;
+        padding-top: 15px;
 
-.ftBottomSectP, .ftBottomSectLink i {
-    color: #F7C683;
+        .ftBottomSectP, .ftBottomSectLink i {
+            color: #F7C683;
+        }
+    }
 }

@@ -5,37 +5,34 @@
     
     /* ---- HEADER ---- */
 
-    p {
-        padding: 10px;
-        text-align: justify;
-        padding-right: 15px;
-    }
+    #header {
+        
+        #hdNavBar div {
+            display: flex;
+            flex-direction: column;
+            
+            .hdNavSection {
+                padding: 5px;
+                
+                .hdNavSectImg {
+                    width: 150px;
+                    height: auto;
+                }
 
-    #hdNavBar div {
-        display: flex;
-        flex-direction: column;
-    }
+                .hdNavSectP {
+                    text-align: center;
+                    padding: 0;
+                }
 
-    .hdNavSection {
-        padding: 5px;
-    }
+                .navbar-toggler-icon {
+                    width: 20px;
+                }
 
-    .hdNavSectImg {
-        width: 150px;
-        height: auto;
-    }
-
-    .hdNavSectP {
-        text-align: center;
-        padding: 0;
-    }
-
-    .navbar-toggler-icon {
-        width: 20px;
-    }
-
-    .hdNavUlLiA {
-        font-size: 15px;
+                .hdNavUlLiA {
+                    font-size: 15px;
+                }
+            }
+        }
     }
 
     /* ---- MAIN ---- */
@@ -48,30 +45,30 @@
         flex-direction: column;
         margin: 10px 60px;
         gap: 2px;
-    }
 
-    .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton{
-        font-size: 14px;
-        margin: 2px;
-        padding: 2px;
+        .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton{
+            font-size: 14px;
+            margin: 2px;
+            padding: 2px;
+        }
+    
+        .mnArtFmTexArea {
+            height: 100px;
+            font-size: 14px;
+        }
+    
+        .mnArtFmButton {
+            display: inline-flex;
+            justify-content: center;
+            color: rgb(223, 221, 221);
+            background-color: rgb(8, 75, 8);
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 10px; 
+            border-radius: 4px; 
+            margin: 20px 30%;
+        } 
     }
-
-    .mnArtFmTexArea {
-        height: 100px;
-        font-size: 14px;
-    }
-
-    .mnArtFmButton {
-        display: inline-flex;
-        justify-content: center;
-        color: rgb(223, 221, 221);
-        background-color: rgb(8, 75, 8);
-        text-align: center;
-        cursor: pointer;
-        padding: 5px 10px; 
-        border-radius: 4px; 
-        margin: 20px 30%;
-    }       
 
     .mnArtSectP {
         padding: 0 10px;
@@ -81,10 +78,10 @@
     
     #carouselExampleFade {
         width: 100%;
-    }
 
-    #mnArtSctDivDivCarousel {
-        width: 100%;
+        #mnArtSctDivDivCarousel {
+            width: 100%;
+        }
     }
 
     /* ---- About ---- */
@@ -138,20 +135,24 @@
 
     /* ---- FOOTER ---- */
 
-    .ftTop, .ftBottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+    #footer {
 
-    .ftBottom {
-        padding: 15px 0 15px 0;
-    }
+        .ftBottom {
+            padding: 15px 0 15px 0;
+        }
+    
+        .ftTop, .ftBottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+    
+            .ftTopSectH1, .ftBottomSectP {
+                text-align: center;
+                padding: 0 10px;
+            }
+        }
 
-    .ftTopSectH1, .ftBottomSectP {
-        text-align: center;
-        padding: 0 10px;
     }
 
 }

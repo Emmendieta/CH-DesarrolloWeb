@@ -4,24 +4,28 @@
 
     /* ---- HEADER ---- */
 
-    #hdNavBar {
-        display: flex;
-        align-items: center;
-    }
+    #header {
 
-    .hdNavSectP {
-        text-align: center;
-        font-size: 18px;
-        padding: 0;
-    }
+        #hdNavBar {
+            display: flex;
+            align-items: center;
 
-    .hdNavSectImg {
-        width: 200px;
-        height: auto;
-    }
+            .hdNavSectP {
+                text-align: center;
+                font-size: 18px;
+                padding: 0;
+            }
 
-    .hdNavUlLiA {
-        font-size: 18px;
+            .hdNavSectImg {
+                width: 200px;
+                height: auto;
+            }
+        
+            .hdNavUlLiA {
+                font-size: 18px;
+            }
+        }
+
     }
 
     /* ---- MAIN ---- */
@@ -34,47 +38,39 @@
         margin: 10px 200px;
         padding: 0 100px;
         gap: 2px;
-    }
-    .mnArtFormLabel, .mnArtFormInput, .mnArtFormButton {
-        font-size: 16px;
-        margin: 2px;
-        padding: 2px;
-    }
 
-    .mnArtFormTextArea {
-        height: 100px;
-        font-size: 16px;
-    }
-
-    .mnArtFormButton {
-        display: inline-flex;
-        justify-content: center;
-        color: rgb(223, 221, 221);
-        background-color: rgb(8, 75, 8);
-        text-align: center;
-        cursor: pointer;
-        padding: 5px 10px; 
-        border-radius: 4px; 
-        margin: 20px 30%;
-    }
-
-
-    .main__section--h4 {
-        padding: 5px 25px;
-    }
-
-    .main__section--parrafo {
-        padding: 0 20px;
+        .mnArtFormLabel, .mnArtFormInput, .mnArtFormButton {
+            font-size: 16px;
+            margin: 2px;
+            padding: 2px;
+        }
+    
+        .mnArtFormTextArea {
+            height: 100px;
+            font-size: 16px;
+        }
+    
+        .mnArtFormButton {
+            display: inline-flex;
+            justify-content: center;
+            color: rgb(223, 221, 221);
+            background-color: rgb(8, 75, 8);
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 10px; 
+            border-radius: 4px; 
+            margin: 20px 30%;
+        }
     }
 
     /* ---- Index ---- */
 
     #carouselExampleFade {
         width: 100%;
-    }
 
-    #mnArtSctDivDivCarousel {
-        width: 100%;
+        #mnArtSctDivDivCarousel {
+            width: 100%;
+        }
     }
 
     /* ---- Seguimiento ---- */
@@ -109,29 +105,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        #danielScianca, #jeremiasScianca, #mateoGonzalez {
+            width: 90%;
+            height: auto;
+        }
     }
 
-    #danielScianca, #jeremiasScianca, #mateoGonzalez {
-        width: 90%;
-        height: auto;
-    }
+
 
     /* ---- FOOTER ---- */
 
-    .ftTop, .ftBottom {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+    #footer {
 
-    .ftBottom {
-        padding: 15px 0 15px 0;
+        .ftBottom {
+            padding: 15px 0 15px 0;
+        }
+    
+        .ftTop, .ftBottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+    
+            .ftTopSectH1, .ftBottomSectP, .ftTopSectP {
+                text-align: center;
+                padding: 0;
+            }
+        }
+        
     }
-
-    .ftTopSectH1, .ftBottomSectP, .ftTopSectP {
-        text-align: center;
-        padding: 0;
-    }
-
 }

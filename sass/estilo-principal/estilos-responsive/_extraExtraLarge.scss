@@ -3,43 +3,51 @@
 @media (min-width: 1400px) {
 
     /* ---- HEADER ---- */
+    #header {
 
-    .hdNavSectImg {
-        width: 250;
+        .hdNavSectImg {
+            width: 250;
+        }
+    
+        .hdNavUlLiA {
+            font-size: 18px;
+        }
+    
+        .hdNavSectP {
+            font-size: 18px;
+        }
     }
 
-    .hdNavUlLiA {
-        font-size: 18px;
-    }
-
-    .hdNavSectP {
-        font-size: 18px;
-    }
 
     /* ---- MAIN ---- */
 
     /* ---- General ---- */
     
-    .mnSectH1 {
-        font-size: 40px;
-    }
+    #main {
 
-    .mnSectH2 {
-        font-size: 35px;
-        margin-left: 20px;
-    }
+        .mnSectH1 {
+            font-size: 40px;
+        }
+    
+        .mnSectH2 {
+            font-size: 35px;
+            margin-left: 20px;
+        }
+    
+        .mnSectH3 {
+            font-size: 30px;
+        }
+    
+        .mnSectP {
+            font-size: 20px;
+        }
+    
+        .mnArtSectP {
+            margin: 20px;
+        }
 
-    .mnSectH3 {
-        font-size: 30px;
     }
-
-    .mnSectP {
-        font-size: 20px;
-    }
-
-    .mnArtSectP {
-        margin: 20px;
-    }
+    
 
     /* ---- Seguimiento ---- */
 

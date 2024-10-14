@@ -7,23 +7,26 @@
     margin: 0;
     padding: 0;
     color: white;
+
+    html, body {
+        height: 100%;
+        width: auto;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: 
+            "header header header"
+            "main main main"
+            "footer footer footer";
+        column-gap: 20px;
+        min-height: 50vh;
+    }
 }
 
-/* ---- GENERAL ---- */
 
-html, body {
-    height: 100%;
-    width: auto;
-}
 
-body {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    column-gap: 20px;
-    min-height: 50vh;
-}
+
+

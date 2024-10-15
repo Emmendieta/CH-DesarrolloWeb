@@ -78,13 +78,21 @@
 
     /* ---- Index ---- */
 
-    #carouselExampleFade {
-        width: $cienPorCiento;
-
-        #mnArtSctDivDivCarousel {
+    #main {
+        .imgProductosProhibidos {
+            width: $sesentaYCincoPorCiento;
+            margin: 80Px;
+        }
+    
+        #carouselExampleFade {
             width: $cienPorCiento;
+    
+            #mnArtSctDivDivCarousel {
+                width: $cienPorCiento;
+            }
         }
     }
+
 
     /* ---- Seguimiento ---- */
 

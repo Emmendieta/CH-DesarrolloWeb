@@ -3,7 +3,20 @@
 @media (min-width: 1200px) and (max-width: 1399px) {
 
     /* ---- Main ---- */
+    /* ---- Index ---- */
 
+    #main{
+
+            /* Imagen Productos Prohibidos */
+
+            .imgProductosProhibidos {
+                width: $setentaYCinco;
+                margin: $tamano100Px;
+            }
+        
+    }
+
+    
     /* ---- Seguimiento ---- */
 
     #main {

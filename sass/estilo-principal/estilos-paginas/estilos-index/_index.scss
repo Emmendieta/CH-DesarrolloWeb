@@ -29,7 +29,13 @@
             width: $cincuentaPorCiento;
             align-self: center;
             height: auto;
+            margin: $tamano180Px;
             border-radius: $tamano5Px;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .imgProductosProhibidos:hover {
+            transform: scale(1.3);
         }
 
         /* Carrusel de Ducato */

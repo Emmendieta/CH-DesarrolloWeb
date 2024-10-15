@@ -11,6 +11,13 @@
         justify-content: space-between;
         padding: $tamano15Px;
 
+        .ftTopSectH1 {
+            border-radius: 50%;
+            background-image: radial-gradient(circle, $colorAmarillo, $colorNaranja, $colorRed);
+            color: $colorBlack;
+            text-align: center;
+        }
+
         .ftTopSectLink {
             margin: $tamano10Px $tamano5Px;
             padding-left: $tamano10Px;

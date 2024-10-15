@@ -6,11 +6,11 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: $colorBlanco;
 }
 
 html, body {
-    height: 100%;
+    height: $cienPorCiento;
     width: auto;
 }
 
@@ -22,8 +22,8 @@ body {
         "header header header"
         "main main main"
         "footer footer footer";
-    column-gap: 20px;
-    min-height: 50vh;
+    column-gap: $tamano20Px;
+    min-height: $VH50;
 } 
 
 

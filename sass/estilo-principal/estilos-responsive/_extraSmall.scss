@@ -11,10 +11,10 @@
             flex-direction: column;
 
             .hdNavSection {
-                padding: 5px;
+                padding: $tamano5Px;
 
                 .hdNavSectImg {
-                    width: 150px;
+                    width: $tamano150Px;
                     height: auto;
                 }
 
@@ -24,7 +24,7 @@
                 }
 
                 .navbar-toggler-icon {
-                    width: 20px;
+                    width: $tamano20Px;
                 }
                 
                 .offcanvas-body {
@@ -32,7 +32,7 @@
                     .navbar-nav {
 
                         .hdNavUlLiA {
-                            font-size: 15px;
+                            font-size: $tamano15Px;
                         } 
 
                     }
@@ -49,36 +49,36 @@
     #main {
 
         .mnArtSectP {
-            padding: 0 10px;
+            padding: 0 $tamano10Px;
         }
 
         .mnArtForm {
             display: flex;
             flex-direction: column;
-            margin: 15px 15px;
-            gap: 2px;
+            margin: $tamano15Px $tamano15Px;
+            gap: $tamano2Px;
 
             .mnArtFmLabel, .mmnArtFmInput, .mnArtFmButton {
-                font-size: 12px;
-                margin: 2px;
-                padding: 2px;
+                font-size: $tamano12Px;
+                margin: $tamano2Px;
+                padding: $tamano2Px;
             }
         
             .mnArtFmTextArea {
-                height: 100px;
-                font-size: 10px;
+                height: $tamano100Px;
+                font-size: $tamano100Px;
             }
         
             .mnArtFmButton {
                 display: inline-flex;
                 justify-content: center;
-                color: rgb(223, 221, 221);
-                background-color: rgb(8, 75, 8);
+                color: $colorFmButton;
+                background-color: $colorFmButtonBack;
                 text-align: center;
                 cursor: pointer;
-                padding: 5px 10px; 
-                border-radius: 4px; 
-                margin: 20px 30%;
+                padding: $tamano5Px $tamano10Px; 
+                border-radius: $tamano4Px; 
+                margin: $tamano20Px $treinta;
             }
         }
 
@@ -89,10 +89,10 @@
     #main {
 
         #carouselExampleFade {
-            width: 90%;
+            width: $noventaPorCiento;
     
             #mnArtSctDivDivCarousel {
-                width: 100%;
+                width: $cienPorCiento;
             }
         }
 
@@ -106,15 +106,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 3px 20px;
+            padding: $tamano3Px $tamano20Px;
         }
     
         .mnSectH1OMVS {
-            font-size: 18px;
+            font-size: $tamano18Px;
         }
     
         .mnSectPOMVS {
-            font-size: 13px;
+            font-size: $tamano13Px;
         }
 
     }
@@ -141,19 +141,19 @@
             }
         
             .mnSectH1 {
-                font-size: 22px;
+                font-size: $tamano22Px;
             }
         
             .mnSectH2 {
-                font-size: 19px;
+                font-size: $tamano19Px;
             }
         
             .mnSectH3 {
-                font-size: 15px;
+                font-size: $tamano15Px;
             }
         
             .mnSectP {
-                font-size: 12px;
+                font-size: $tamano12Px;
             }
             
         }
@@ -169,16 +169,16 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            font-size: 12px;
+            font-size: $tamano12Px;
     
             .ftTopSectH1, .ftBottomSectP {
                 text-align: center;
-                padding: 0 10px;
+                padding: 0 $tamano10Px;
             }
         }
     
         .ftBottom {
-            padding: 15px 0 15px 0;
+            padding: $tamano15Px 0 $tamano15Px 0;
         }
     }
     

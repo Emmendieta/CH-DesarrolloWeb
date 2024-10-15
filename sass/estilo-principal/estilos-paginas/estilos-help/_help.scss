@@ -4,18 +4,18 @@
     
     .mnArtFmTextArea {
         grid-column: 2 / 3;
-        margin: 2px 5px;
-        padding-top: 3px;
+        margin: $tamano2Px $tamano5Px;
+        padding-top: $tamano3Px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: justify;
-        height: 200px;
+        height: $tamano200Px;
         width: auto;
-        color: black;
+        color: $colorBlack;
     } 
     
     .helpMnSectP {
-        padding: 20px;
+        padding: $tamano20Px;
         text-align: center;
-        color: #F7C683;
+        color: $colorHelpMnSectP;
     } 
 }

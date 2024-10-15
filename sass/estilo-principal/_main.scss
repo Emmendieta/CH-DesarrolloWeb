@@ -2,13 +2,13 @@
 
 #main {
     grid-area: main ;
-    background-color: rgb(2, 2, 2);
+    background-color: $colorBlack;
 
     .mnArtSect {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 20px;
+        padding: $tamano20Px;
 
         .mnArtSectP {
             text-align: justify;
@@ -18,71 +18,71 @@
     .mnArtForm {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        margin: 15px;
+        gap: $tamano10Px;
+        margin: $tamano15Px;
 
         .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
             grid-column: 2 / 3;
-            margin: 2px 5px;
-            padding-top: 3px;
+            margin: $tamano2Px $tamano5Px;
+            padding-top: $tamano3Px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align: justify;
         }
         
         .mnArtFmInput, .mnArtFmButton {
-            color: black;
+            color: $colorBlack;
         }
         
         .mnArtFmButton {
             display: inline-flex;
             justify-content: center;
-            color: rgb(223, 221, 221);
-            background-color: rgb(8, 75, 8);
-            font-size: 16px; 
+            color: $colorFmButton;
+            background-color: $colorFmButtonBack;
+            font-size: $tamano16Px; 
             text-align: center;
             cursor: pointer;
-            padding: 5px 10px; 
-            border-radius: 4px; 
-            margin: 20px 30%;
+            padding: $tamano5Px $tamano10Px; 
+            border-radius: $tamano4Px; 
+            margin: $tamano20Px $treinta;
         }
     }
 
     .mnSectSeguimiento {
         
         .mnSectH1 {
-            font-size: 25px;
+            font-size: $tamano25Px;
             text-decoration: underline;
             text-align: center;
-            padding: 5px 15px;
-            color: yellow;
-            margin-top: 10px;
-            padding-bottom: 10px;
+            padding: $tamano5Px $tamano15Px;
+            color: $colorAmarillo;
+            margin-top: $tamano10Px;
+            padding-bottom: $tamano10Px;
         }
         
         .mnSectH2 {
-            font-size: 23px;
+            font-size: $tamano23Px;
             text-align: center;
             text-decoration: underline;
-            padding: 5px 15px;
-            color: red;
-            margin-top: 10px;
-            padding-bottom: 10px;
+            padding: $tamano5Px $tamano15Px;
+            color: $colorRed;
+            margin-top: $tamano10Px;
+            padding-bottom: $tamano10Px;
         }
         
         .mnSectH3 {
-            font-size: 19px;
+            font-size: $tamano19Px;
             text-align: center;
             text-decoration: underline;
-            padding: 5px 15px;
-            color: orange;
+            padding: $tamano5Px $tamano15Px;
+            color: $colorNaranja;
         }
         
         .mnSectP {
-            font-size: 17px;
+            font-size: $tamano17Px;
             text-align: center;
-            padding: 5px 15px;
-            margin-top: 10px;
-            padding-bottom: 10px;
+            padding: $tamano5Px $tamano15Px;
+            margin-top: $tamano10Px;
+            padding-bottom: $tamano10Px;
         }  
     }
 }

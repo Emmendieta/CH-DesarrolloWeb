@@ -12,10 +12,10 @@
             flex-direction: column;
             
             .hdNavSection {
-                padding: 5px;
+                padding: $tamano5Px;
                 
                 .hdNavSectImg {
-                    width: 150px;
+                    width: $tamano150Px;
                     height: auto;
                 }
 
@@ -25,11 +25,11 @@
                 }
 
                 .navbar-toggler-icon {
-                    width: 20px;
+                    width: $tamano20Px;
                 } 
 
                 .hdNavUlLiA {
-                    font-size: 15px;
+                    font-size: $tamano15Px;
                 }
             }
         }
@@ -43,65 +43,65 @@
     .mnArtForm {
         display: flex;
         flex-direction: column;
-        margin: 10px 0;
-        gap: 2px;
+        margin: $tamano10Px $tamano150Px;
+        gap: $tamano2Px;
 
         .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton{
-            font-size: 14px;
-            margin: 2px;
-            padding: 2px;
+            font-size: $tamano14Px;
+            margin: $tamano2Px;
+            padding: $tamano2Px;
         }
     
         .mnArtFmTextArea {
-            height: 300px;
-            font-size: 14px;
+            height: $tamano100Px;
+            font-size: $tamano14Px;
         }
     
         .mnArtFmButton {
             display: inline-flex;
             justify-content: center;
-            color: rgb(223, 221, 221);
-            background-color: rgb(8, 75, 8);
+            color: $colorFmButton;
+            background-color: $colorFmButtonBack;
             text-align: center;
             cursor: pointer;
-            padding: 5px 10px; 
-            border-radius: 4px; 
-            margin: 20px 30%;
+            padding: $tamano5Px $tamano5Px; 
+            border-radius: $tamano4Px; 
+            margin: $tamano18Px $treinta;
         } 
     }
 
     .mnArtSectP {
-        padding: 0 10px;
+        padding: 0 $tamano10Px;
     }
 
     /* ---- Index ---- */
     
     #carouselExampleFade {
-        width: 100%;
+        width: $cienPorCiento;
 
         #mnArtSctDivDivCarousel {
-            width: 100%;
+            width: $cienPorCiento;
         }
     }
 
     /* ---- About ---- */
 
     #aboutVideo {
-        width: 90%;
+        width: $noventaPorCiento;
     }
     .mnSectTarjetas {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5px 20px;
+        padding: $tamano5Px $tamano20Px;
     }
 
     .mnSectH1OMVS {
-        font-size: 18px;
+        font-size: $tamano18Px;
     }
 
     .mnSectPOMVS {
-        font-size: 13px;
+        font-size: $tamano13Px;
     }
 
     /* ---- Help ---- */
@@ -118,19 +118,19 @@
     }
 
     .mnSectH1 {
-        font-size: 24px;
+        font-size: $tamano24Px;
     }
 
     .mnSectH2 {
-        font-size: 22px;
+        font-size: $tamano22Px;
     }
 
     .mnSectH3 {
-        font-size: 20px;
+        font-size: $tamano20Px;
     }
 
     .mnSectP {
-        font-size: 15px;
+        font-size: $tamano15Px;
     }
 
     /* ---- FOOTER ---- */
@@ -138,7 +138,7 @@
     #footer {
 
         .ftBottom {
-            padding: 15px 0 15px 0;
+            padding: $tamano15Px 0 $tamano15Px 0;
         }
     
         .ftTop, .ftBottom {
@@ -149,7 +149,7 @@
     
             .ftTopSectH1, .ftBottomSectP {
                 text-align: center;
-                padding: 0 10px;
+                padding: 0 $tamano10Px;
             }
         }
 

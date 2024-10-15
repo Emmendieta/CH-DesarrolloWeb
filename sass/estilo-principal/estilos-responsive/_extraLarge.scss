@@ -19,17 +19,17 @@
     #main {
 
         .mnArtSectH1, .mnArtSectP {
-            padding-left: 15px;
+            padding-left: $tamano15Px;
         }
     
         .mnSectTarjetas {
             display: flex;
             width: fit-content;
-            margin: 10px 50px;
+            margin: $tamano10Px $tamano50Px;
         }
     
         #aboutVideo {
-            width: 1050px;
+            width: $tamano1050Px;
         } 
     }
 

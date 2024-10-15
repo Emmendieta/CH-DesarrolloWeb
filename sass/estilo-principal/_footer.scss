@@ -2,35 +2,35 @@
 
 #footer {
     grid-area: footer;
-    background-color: rgb(8, 8, 8);
-    border-top: 3px rgb(44, 42, 42) solid;
+    background-color: $colorBlack;
+    border-top: $tamano3Px $colorGrisOscuro solid;
 
     .ftTop {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 15px;
+        padding: $tamano15Px;
 
         .ftTopSectLink {
-            margin: 10px 5px;
-            padding-left: 10px;
+            margin: $tamano10Px $tamano5Px;
+            padding-left: $tamano10Px;
         }
     }
 
     .ftBottom {
         display: flex;
-        border-top: 3px rgb(44, 42, 42) solid;
+        border-top: $tamano3Px $colorGrisOscuro solid;
         align-items: center;
         justify-content: center;
-        padding-top: 15px;
+        padding-top: $tamano15Px;
 
         .ftBottomSectLink {
-            margin: 10px 5px;
-            padding-left: 10px;
+            margin: $tamano10Px $tamano5Px;
+            padding-left: $tamano10Px;
         }
 
         .ftBottomSectP, .ftBottomSectLink i {
-            color: #F7C683;
+            color: $colorHelpMnSectP;
         } 
     }
 }

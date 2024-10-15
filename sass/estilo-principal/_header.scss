@@ -6,15 +6,15 @@
     #hdNavBar {
         display: flex;
         justify-content: space-between;
-        background-color: rgb(8, 8, 8);
-        border-bottom: 3px rgb(44, 42, 42) solid; 
+        background-color: $colorBlack;
+        border-bottom: $tamano3Px $colorGrisOscuro solid; 
         align-items: center;   
 
         .hdNavSection {
-            padding: 10px 15px;
+            padding: $tamano10Px $tamano15Px;
 
             .hdNavSectImg {
-                width: 250px;
+                width: $tamano250Px;
             }
         }
 
@@ -22,11 +22,11 @@
             text-align: center;
 
             .hdNavUlLi{
-                margin-bottom: 20px;
+                margin-bottom: $tamano20Px;
 
                 .hdNavUlLiA {
-                    font-size: 25px;
-                    color: #F7C683;
+                    font-size: $tamano25Px;
+                    color: $colorHelpMnSectP;
                     text-decoration: none;
                 } 
             }

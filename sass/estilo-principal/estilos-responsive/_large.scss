@@ -12,12 +12,12 @@
 
             .hdNavSectP {
                 text-align: center;
-                font-size: 18px;
+                font-size: $tamano18Px;
                 padding: 0;
             }
 
             .hdNavSectImg {
-                width: 200px;
+                width: $tamano200Px;
                 height: auto;
             }
         
@@ -25,7 +25,7 @@
 
                 .hdNavUlLi {
                     .hdNavUlLiA {
-                        font-size: 25px;
+                        font-size: $tamano25Px;
                     }
                 }
             }
@@ -44,31 +44,31 @@
             .mnArtForm {
                 display: flex;
                 flex-direction: column;
-                margin: 10px 200px;
-                padding: 0 100px;
-                gap: 2px;
+                margin: $tamano10Px $tamano200Px;
+                padding: 0 $tamano100Px;
+                gap: $tamano2Px;
         
                 .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
-                    font-size: 16px;
-                    margin: 2px;
-                    padding: 2px;
+                    font-size: $tamano16Px;
+                    margin: $tamano2Px;
+                    padding: $tamano2Px;
                 }
             
                 .mnArtFmTextArea {
-                    height: 100px;
-                    font-size: 16px;
+                    height: $tamano100Px;
+                    font-size: $tamano16Px;
                 }
             
                 .mnArtFmButton {
                     display: inline-flex;
                     justify-content: center;
-                    color: rgb(223, 221, 221);
-                    background-color: rgb(8, 75, 8);
+                    color: $colorFmButton;
+                    background-color: $colorFmButtonBack;
                     text-align: center;
                     cursor: pointer;
-                    padding: 5px 10px; 
-                    border-radius: 4px; 
-                    margin: 20px 30%;
+                    padding: $tamano5Px $tamano10Px; 
+                    border-radius: $tamano4Px; 
+                    margin: $tamano20Px $treinta;
                 }
             }
 
@@ -79,17 +79,17 @@
     /* ---- Index ---- */
 
     #carouselExampleFade {
-        width: 100%;
+        width: $cienPorCiento;
 
         #mnArtSctDivDivCarousel {
-            width: 100%;
+            width: $cienPorCiento;
         }
     }
 
     /* ---- Seguimiento ---- */
 
     .mnSectH1 {
-        font-size: 25px;
+        font-size: $tamano25Px;
     }
 
     .mnSectH2, .mnSectH3, .mnSectP {
@@ -97,21 +97,21 @@
     }
 
     .mnSectH2 {
-        font-size: 22px;
+        font-size: $tamano22Px;
     }
 
     .mnSectH3 {
-        font-size: 19px;
+        font-size: $tamano19Px;
     }
 
     .mnSectP {
-        font-size: 17px;
+        font-size: $tamano17Px;
     }
 
     /* ---- About ---- */
 
     #aboutVideo {
-        width: 90%;
+        width: $noventaPorCiento;
     }
 
     .mnSectTarjetas {
@@ -120,7 +120,7 @@
         align-items: center;
 
         #danielScianca, #jeremiasScianca, #mateoGonzalez {
-            width: 90%;
+            width: $noventaPorCiento;
             height: auto;
         }
     }
@@ -132,7 +132,7 @@
     #footer {
 
         .ftBottom {
-            padding: 15px 0 15px 0;
+            padding: $tamano15Px 0 $tamano15Px 0;
         }
     
         .ftTop, .ftBottom {

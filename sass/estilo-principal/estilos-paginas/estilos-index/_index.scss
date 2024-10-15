@@ -1,21 +1,21 @@
 /* ---- INDEX ---- */
 
 #carouselExampleFade {
-    max-width: 750px;
+    max-width: $tamano750Px;
     height: auto;
     align-self: center;
 
     #mnArtSctDivDivCarousel {
-        width: 750px;
+        width: $tamano750Px;
         height: auto;
 
         #mnArtSectDivImgCarousel{
-            border-radius: 30px;
-            padding: 20px;
+            border-radius: $tamano30Px;
+            padding: $tamano20Px;
         }
     }
 
     #mnArtSectDivbtn {
-        background-color: black; 
+        background-color: $colorBlack; 
     } 
 }

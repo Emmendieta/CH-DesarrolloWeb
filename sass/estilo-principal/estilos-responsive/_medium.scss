@@ -7,25 +7,25 @@
     #header {
 
         .hdNavSection {
-            padding: 5px;
+            padding: $tamano5Px;
 
             .hdNavSectP {
                 text-align: center;
-                font-size: 17px;
+                font-size: $tamano17Px;
                 padding: 0;
             }
 
             .hdNavSectImg {
-                width: 250px;
+                width: $tamano250Px;
                 height: auto;
             }
 
             .navbar-toggler-icon {
-                width: 25px;
+                width: $tamano25Px;
             }
 
             .hdNavUlLiA{
-                font-size: 18px;
+                font-size: $tamano18Px;
             } 
         }
 
@@ -38,28 +38,28 @@
     .mnArtForm {
         display: flex;
         flex-direction: column;
-        margin: 10px 150px;
-        gap: 2px;
+        margin: $tamano10Px $tamano150Px;
+        gap: $tamano2Px;
 
         .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton{
-            font-size: 14px;
-            margin: 2px;
-            padding: 2px;
+            font-size: $tamano14Px;
+            margin: $tamano2Px;
+            padding: $tamano2Px;
         }
     
         .mnArtFmTextArea {
-            height: 100px;
-            font-size: 10px;
+            height: $tamano100Px;
+            font-size: $tamano10Px;
         }  
     }
 
     /* ---- Index ---- */
 
     #carouselExampleFade {
-        width: 100%;
+        width: $cienPorCiento;
 
         #mnArtSctDivDivCarousel {
-            width: 100%;
+            width: $cienPorCiento;
         }
     }
 
@@ -70,25 +70,25 @@
     }
 
     .mnSectH1 {
-        font-size: 23px;
+        font-size: $tamano23Px;
     }
 
     .mnSectH2 {
-        font-size: 20px;
+        font-size: $tamano20Px;
     }
 
     .mnSectP {
-        font-size: 17px;
+        font-size: $tamano17Px;
     }
 
     /* ---- About ---- */
 
     #aboutVideo {
-        width: 90%;
+        width: $noventaPorCiento;
     }
 
     .aboutMnSectP {
-        padding: 0 20px;
+        padding: 0 $tamano20Px;
     }
 
     .mnSectTarjetas {
@@ -97,7 +97,7 @@
         align-items: center;
 
         #danielScianca, #jeremiasScianca, #mateoGonzalez {
-            width: 90%;
+            width: $noventaPorCiento;
             height: auto;
         }
     }
@@ -106,7 +106,7 @@
 
     #footer {
         .ftBottom {
-            padding: 15px 0 15px 0;
+            padding: $tamano15Px 0 $tamano15Px 0;
         }
     
         .ftTop, .ftBottom {

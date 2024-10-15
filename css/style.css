@@ -1,5 +1,8 @@
+@charset "UTF-8";
 /* ---- VARIABLES ---- */
-/* $variable: 15px; */
+/* Tamaños */
+/* Colores */
+/* Porcentajes */
 /* ---- IMPORTS GENERALES ---- */
 /* IMPORT RESET */
 /* ---- RESET CSS ---- */
@@ -34,7 +37,7 @@ body {
 #header #hdNavBar {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(8, 8, 8);
+  background-color: black;
   border-bottom: 3px rgb(44, 42, 42) solid;
   align-items: center;
 }
@@ -60,7 +63,7 @@ body {
 /* ---- Main ---- */
 #main {
   grid-area: main;
-  background-color: rgb(2, 2, 2);
+  background-color: black;
 }
 #main .mnArtSect {
   display: flex;
@@ -136,7 +139,7 @@ body {
 /* ----  Footer ---- */
 #footer {
   grid-area: footer;
-  background-color: rgb(8, 8, 8);
+  background-color: black;
   border-top: 3px rgb(44, 42, 42) solid;
 }
 #footer .ftTop {
@@ -313,7 +316,7 @@ body {
   }
   #main .mnArtForm .mnArtFmTextArea {
     height: 100px;
-    font-size: 10px;
+    font-size: 100px;
   }
   #main .mnArtForm .mnArtFmButton {
     display: inline-flex;
@@ -413,7 +416,7 @@ body {
   .mnArtForm {
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
+    margin: 10px 150px;
     gap: 2px;
   }
   .mnArtForm .mnArtFmLabel, .mnArtForm .mnArtFmInput, .mnArtForm .mnArtFmButton {
@@ -422,7 +425,7 @@ body {
     padding: 2px;
   }
   .mnArtForm .mnArtFmTextArea {
-    height: 300px;
+    height: 100px;
     font-size: 14px;
   }
   .mnArtForm .mnArtFmButton {
@@ -432,9 +435,9 @@ body {
     background-color: rgb(8, 75, 8);
     text-align: center;
     cursor: pointer;
-    padding: 5px 10px;
+    padding: 5px 5px;
     border-radius: 4px;
-    margin: 20px 30%;
+    margin: 18px 30%;
   }
   .mnArtSectP {
     padding: 0 10px;

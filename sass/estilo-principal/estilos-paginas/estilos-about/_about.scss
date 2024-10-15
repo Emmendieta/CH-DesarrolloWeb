@@ -3,29 +3,29 @@
 .aboutMnH1 {
     text-align: center;
     text-decoration: underline;
-    margin: 15px 0;
-    color: blue;
+    margin: $tamano15Px 0;
+    color: $colorAzul;
 }
 
 .mnSectVideo {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 15px;
+    margin-bottom: $tamano15Px;
 
     #aboutVideo {
-        width: 75%;
+        width: $setentaYCinco;
         height: auto;
     } 
 }
 
 .mnSectTarjetas {
-    width: 100%;
+    width: $cienPorCiento;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: $tamano30Px;
     justify-items: center;
-    margin: 25px 0;
-    padding: 15px;
+    margin: $tamano25Px 0;
+    padding: $tamano15Px;
 
     #danielScianca {
         grid-column: 1;
@@ -40,36 +40,36 @@
     }
 
     .card {
-        background-color: grey;
-        width: 100%;
+        background-color: $colorGris;
+        width: $cienPorCiento;
         height: auto;
 
         .card-text {
-            color: black;
+            color: $colorBlack;
             text-align: justify;
         }
 
         .card-title {
-            color: azure;
+            color: $colorAzure;
             text-decoration: underline;
         }
 
         .btn-secondary {
-            background-color: red;
+            background-color: $colorRed;
         } 
     }
 }
 
 .mnSectH1OMVS {
     text-decoration: underline;
-    font-size: 25px;
-    color: rgb(134, 81, 81);
-    padding-left: 15px;
+    font-size: $tamano25Px;
+    color: $colorOMVS;
+    padding-left: $tamano15Px;
 }
 
 .aboutMnSectP, .mnSectPOMVS {
-    font-size: 15px;
-    padding: 0 20px 0 15px;
+    font-size: $tamano15Px;
+    padding: 0 $tamano20Px 0 $tamano15Px;
     text-align: justify;
 }
 

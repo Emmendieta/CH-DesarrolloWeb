@@ -6,15 +6,15 @@
     #header {
 
         .hdNavSectImg {
-            width: 250;
+            width: $docientoCincuenta;
         }
     
         .hdNavUlLiA {
-            font-size: 18px;
+            font-size: $tamano18Px;
         }
     
         .hdNavSectP {
-            font-size: 18px;
+            font-size: $tamano18Px;
         }
     }
 
@@ -26,24 +26,24 @@
     #main { 
 
         .mnSectH1 {
-            font-size: 40px;
+            font-size: $tamano40Px;
         }
     
         .mnSectH2 {
-            font-size: 35px;
-            margin-left: 20px;
+            font-size: $tamano35Px;
+            margin-left: $tamano20Px;
         }
     
         .mnSectH3 {
-            font-size: 30px;
+            font-size: $tamano30Px;
         }
     
         .mnSectP {
-            font-size: 20px;
+            font-size: $tamano20Px;
         }
     
         .mnArtSectP {
-            margin: 20px;
+            margin: $tamano20Px;
         }
 
     }
@@ -57,13 +57,13 @@
     #main {
         
         #aboutVideo {
-            width: 1200px;
+            width: $tamano1200Px;
         }
     
         .mnSectTarjetas {
             display: flex;
             width: fit-content;
-            margin: 10px 50px;
+            margin: $tamano10Px $tamano50Px;
         }
 
     }

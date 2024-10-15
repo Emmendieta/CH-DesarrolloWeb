@@ -170,20 +170,95 @@ body {
 /* ---- IMPORTS PAGES ---- */
 /* IMPORT INDEX */
 /* ---- INDEX ---- */
-#carouselExampleFade {
+.mnArtSect {
+  /* ELementos Prohibidos */
+  /* Carrusel de Ducato */
+  /* Carrusel de Fiorino */
+  /* Carrusel de Iveco */
+  /* Carrusel de  Sprinter */
+}
+.mnArtSect .mnArtSectH1 {
+  font-size: 50px;
+  text-decoration: underline;
+  color: orange;
+  text-align: center;
+}
+.mnArtSect .mnSectArtCamioneta {
+  font-size: 40px;
+  text-decoration: underline;
+  color: #F7C683;
+}
+.mnArtSect .mnArtSectP {
+  font-size: 20px;
+  text-align: justify;
+}
+.mnArtSect .imgProductosProhibidos {
+  width: 65%;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+}
+.mnArtSect #carouselExampleFade {
   max-width: 750px;
   height: auto;
   align-self: center;
 }
-#carouselExampleFade #mnArtSctDivDivCarousel {
+.mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel {
   width: 750px;
   height: auto;
 }
-#carouselExampleFade #mnArtSctDivDivCarousel #mnArtSectDivImgCarousel {
+.mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel .mnArtSectDivImgCarousel {
   border-radius: 30px;
   padding: 20px;
 }
-#carouselExampleFade #mnArtSectDivbtn {
+.mnArtSect #carouselExampleFade .mnArtSectDivbtn {
+  background-color: black;
+}
+.mnArtSect #carouselExampleIndicators {
+  max-width: 750px;
+  height: auto;
+  align-self: center;
+}
+.mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
+  width: 750px;
+  height: auto;
+}
+.mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators .mnArtSectDivImgCarousel {
+  padding: 20px;
+}
+.mnArtSect #carouselExampleIndicators .mnArtSectDivbtn {
+  background-color: black;
+}
+.mnArtSect #carouselExample {
+  max-width: 750px;
+  height: auto;
+  align-self: center;
+}
+.mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide {
+  width: 750px;
+  height: auto;
+}
+.mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide .mnArtSectDivImgCarousel {
+  border-radius: 30px;
+  padding: 20px;
+}
+.mnArtSect #carouselExample .mnArtSectDivbtn {
+  background-color: black;
+}
+.mnArtSect #carouselExampleRide {
+  max-width: 750px;
+  height: auto;
+  align-self: center;
+}
+.mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide {
+  width: 750px;
+  height: auto;
+}
+.mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide .mnArtSectDivImgCarousel {
+  border-radius: 30px;
+  padding: 20px;
+}
+.mnArtSect #carouselExampleRide .mnArtSectDivbtn {
   background-color: black;
 }
 
@@ -330,11 +405,49 @@ body {
     margin: 20px 30%;
   }
   /* ---- Index ---- */
-  #main #carouselExampleFade {
+  #main .mnArtSectH1 {
+    font-size: 35px;
+  }
+  #main .mnArtSect {
+    /* ---- Ducato ---- */
+    /* ---- Fiorino ---- */
+    /* ---- Iveco ---- */
+    /* ---- Sprinter ---- */
+  }
+  #main .mnArtSect .mnSectArtCamioneta {
+    font-size: 30px;
+    text-align: center;
+  }
+  #main .mnArtSect .mnArtSectP {
+    font-size: 16px;
+  }
+  #main .mnArtSect #carouselExampleFade {
     width: 90%;
   }
-  #main #carouselExampleFade #mnArtSctDivDivCarousel {
+  #main .mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleIndicators {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExample {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleRide {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide {
+    width: 100%;
+    height: auto;
   }
   /* ---- About ---- */
   #main .mnSectTarjetas {
@@ -443,11 +556,53 @@ body {
     padding: 0 10px;
   }
   /* ---- Index ---- */
-  #carouselExampleFade {
-    width: 100%;
+  #main .mnArtSectH1 {
+    font-size: 40px;
   }
-  #carouselExampleFade #mnArtSctDivDivCarousel {
+  #main .mnArtSect {
+    /* Imagen Productos Prohibidos */
+    /* ---- Ducato ---- */
+    /* ---- Fiorino ---- */
+    /* ---- Iveco ---- */
+    /* ---- Sprinter ---- */
+  }
+  #main .mnArtSect .mnSectArtCamioneta {
+    font-size: 35px;
+    text-align: center;
+  }
+  #main .mnArtSect .mnArtSectP {
+    font-size: 19px;
+  }
+  #main .mnArtSect .imgProductosProhibidos {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleFade {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleIndicators {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExample {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleRide {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide {
+    width: 100%;
+    height: auto;
   }
   /* ---- About ---- */
   #aboutVideo {
@@ -541,11 +696,53 @@ body {
     font-size: 10px;
   }
   /* ---- Index ---- */
-  #carouselExampleFade {
-    width: 100%;
+  #main .mnArtSectH1 {
+    font-size: 40px;
   }
-  #carouselExampleFade #mnArtSctDivDivCarousel {
+  #main .mnArtSect {
+    /* Imagen Productos Prohibidos */
+    /* ---- Ducato ---- */
+    /* ---- Fiorino ---- */
+    /* ---- Iveco ---- */
+    /* ---- Sprinter ---- */
+  }
+  #main .mnArtSect .mnSectArtCamioneta {
+    font-size: 35px;
+    text-align: center;
+  }
+  #main .mnArtSect .mnArtSectP {
+    font-size: 20px;
+  }
+  #main .mnArtSect .imgProductosProhibidos {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleFade {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel {
     width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleIndicators {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExample {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide {
+    width: 100%;
+    height: auto;
+  }
+  #main .mnArtSect #carouselExampleRide {
+    width: 90%;
+  }
+  #main .mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide {
+    width: 100%;
+    height: auto;
   }
   /* ---- Seguimiento ---- */
   .mnSectH2, .mnSectH3, .mnSectP {

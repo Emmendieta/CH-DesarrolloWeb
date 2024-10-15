@@ -55,13 +55,74 @@
 
     /* ---- Index ---- */
 
-    #carouselExampleFade {
-        width: $cienPorCiento;
+    #main {
 
-        #mnArtSctDivDivCarousel {
-            width: $cienPorCiento;
+        .mnArtSectH1 {
+            font-size: $tamano40Px;
         }
-    }
+        
+        .mnArtSect {
+
+            .mnSectArtCamioneta {
+                font-size: $tamano35Px;
+                text-align: center;
+            }
+
+            .mnArtSectP {
+                font-size: $tamano20Px;
+            }
+
+            /* Imagen Productos Prohibidos */
+
+            .imgProductosProhibidos {
+                width: $noventaPorCiento;
+            }
+
+            /* ---- Ducato ---- */
+
+            #carouselExampleFade {
+                width: $noventaPorCiento;
+    
+                #mnArtSctDivDivCarousel {
+                    width: $cienPorCiento;
+                    height: auto;
+                }
+            }
+
+            /* ---- Fiorino ---- */
+
+            #carouselExampleIndicators {
+                width: $noventaPorCiento;
+    
+                #mnArtSctDivDivCarouselIndicators {
+                    width: $cienPorCiento;
+                    height: auto;
+                }
+            }
+
+            /* ---- Iveco ---- */
+
+            #carouselExample {
+                width: $noventaPorCiento;
+    
+                #mnArtSctDivDivCarouselSlide {
+                    width: $cienPorCiento;
+                    height: auto;
+                }
+            }
+
+            /* ---- Sprinter ---- */
+
+            #carouselExampleRide {
+                width: $noventaPorCiento;
+    
+                #mnArtSctDivDivCarouselRide {
+                    width: $cienPorCiento;
+                    height: auto;
+                }
+            }
+        }
+    }    
 
     /* ---- Seguimiento ---- */
 

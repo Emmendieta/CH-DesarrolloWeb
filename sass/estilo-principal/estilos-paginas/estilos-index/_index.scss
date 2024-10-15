@@ -1,21 +1,123 @@
 /* ---- INDEX ---- */
 
-#carouselExampleFade {
-    max-width: $tamano750Px;
-    height: auto;
-    align-self: center;
+.mnArtSect {
 
-    #mnArtSctDivDivCarousel {
-        width: $tamano750Px;
-        height: auto;
-
-        #mnArtSectDivImgCarousel{
-            border-radius: $tamano30Px;
-            padding: $tamano20Px;
-        }
+    .mnArtSectH1 {
+        font-size: $tamano50Px;
+        text-decoration: underline;
+        color: $colorNaranja;
+        text-align: center;
+    }
+    .mnSectArtCamioneta {
+        font-size: $tamano40Px;
+        text-decoration: underline;
+        color: $colorHelpMnSectP;
     }
 
-    #mnArtSectDivbtn {
-        background-color: $colorBlack; 
-    } 
+    /* ELementos Prohibidos */
+
+    .mnArtSectP {
+        font-size: $tamano20Px;
+        text-align: justify;
+    }
+
+    .imgProductosProhibidos {
+        width: $sesentaYCincoPorCiento;
+        height: auto;
+        align-self: center;
+        border-radius: $tamano5Px;
+    }
+
+    /* Carrusel de Ducato */
+
+    #carouselExampleFade {
+        max-width: $tamano750Px;
+        height: auto;
+        align-self: center;
+    
+        #mnArtSctDivDivCarousel {
+            width: $tamano750Px;
+            height: auto;
+    
+            .mnArtSectDivImgCarousel{
+                border-radius: $tamano30Px;
+                padding: $tamano20Px;
+            }
+        }
+    
+        .mnArtSectDivbtn {
+            background-color: $colorBlack; 
+        } 
+    }
+    
+    /* Carrusel de Fiorino */
+
+    #carouselExampleIndicators {
+
+        max-width: $tamano750Px;
+        height: auto;
+        align-self: center;
+
+        #mnArtSctDivDivCarouselIndicators {
+            width: $tamano750Px;
+            height: auto;
+
+            .mnArtSectDivImgCarousel {
+                padding: $tamano20Px;
+            }
+        }
+
+        .mnArtSectDivbtn {
+            background-color: $colorBlack; 
+        } 
+    }
+
+    /* Carrusel de Iveco */
+
+    #carouselExample {
+
+        max-width: $tamano750Px;
+        height: auto;
+        align-self: center;
+    
+        #mnArtSctDivDivCarouselSlide {
+            width: $tamano750Px;
+            height: auto;
+    
+            .mnArtSectDivImgCarousel {
+                border-radius: $tamano30Px;
+                padding: $tamano20Px;
+            }
+        }
+
+        .mnArtSectDivbtn {
+            background-color: $colorBlack; 
+        } 
+    
+    }
+    
+    /* Carrusel de  Sprinter */
+
+    #carouselExampleRide {
+
+        max-width: $tamano750Px;
+        height: auto;
+        align-self: center;
+    
+        #mnArtSctDivDivCarouselRide {
+            width: $tamano750Px;
+            height: auto;
+
+            .mnArtSectDivImgCarousel {
+                border-radius: $tamano30Px;
+                padding: $tamano20Px;
+            }
+        }
+
+        .mnArtSectDivbtn {
+            background-color: $colorBlack; 
+        } 
+    }
+
 }
+

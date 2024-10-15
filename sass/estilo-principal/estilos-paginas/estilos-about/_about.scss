@@ -40,12 +40,15 @@
     }
 
     .card {
-        background-color: $colorGris;
+        background-color: $colorBlack;
         width: $cienPorCiento;
         height: auto;
+        border: $tamano2Px $colorGris solid;
+
+
 
         .card-text {
-            color: $colorBlack;
+            color: $colorBlanco;
             text-align: justify;
         }
 

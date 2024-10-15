@@ -170,13 +170,6 @@ body {
 /* ---- IMPORTS PAGES ---- */
 /* IMPORT INDEX */
 /* ---- INDEX ---- */
-.mnArtSect {
-  /* ELementos Prohibidos */
-  /* Carrusel de Ducato */
-  /* Carrusel de Fiorino */
-  /* Carrusel de Iveco */
-  /* Carrusel de  Sprinter */
-}
 .mnArtSect .mnArtSectH1 {
   font-size: 50px;
   text-decoration: underline;
@@ -188,77 +181,86 @@ body {
   text-decoration: underline;
   color: #F7C683;
 }
-.mnArtSect .mnArtSectP {
+.mnArtSect .mnArtSectDiv {
+  display: flex;
+  flex-direction: column;
+  /* ELementos Prohibidos */
+  /* Carrusel de Ducato */
+  /* Carrusel de Fiorino */
+  /* Carrusel de Iveco */
+  /* Carrusel de  Sprinter */
+}
+.mnArtSect .mnArtSectDiv .mnArtSectP {
   font-size: 20px;
   text-align: justify;
 }
-.mnArtSect .imgProductosProhibidos {
-  width: 65%;
-  height: auto;
+.mnArtSect .mnArtSectDiv .imgProductosProhibidos {
+  width: 50%;
   align-self: center;
+  height: auto;
   border-radius: 5px;
 }
-.mnArtSect #carouselExampleFade {
+.mnArtSect .mnArtSectDiv #carouselExampleFade {
   max-width: 750px;
   height: auto;
   align-self: center;
 }
-.mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel {
+.mnArtSect .mnArtSectDiv #carouselExampleFade #mnArtSctDivDivCarousel {
   width: 750px;
   height: auto;
 }
-.mnArtSect #carouselExampleFade #mnArtSctDivDivCarousel .mnArtSectDivImgCarousel {
+.mnArtSect .mnArtSectDiv #carouselExampleFade #mnArtSctDivDivCarousel .mnArtSectDivImgCarousel {
   border-radius: 30px;
   padding: 20px;
 }
-.mnArtSect #carouselExampleFade .mnArtSectDivbtn {
+.mnArtSect .mnArtSectDiv #carouselExampleFade .mnArtSectDivbtn {
   background-color: black;
 }
-.mnArtSect #carouselExampleIndicators {
+.mnArtSect .mnArtSectDiv #carouselExampleIndicators {
   max-width: 750px;
   height: auto;
   align-self: center;
 }
-.mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
+.mnArtSect .mnArtSectDiv #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators {
   width: 750px;
   height: auto;
 }
-.mnArtSect #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators .mnArtSectDivImgCarousel {
+.mnArtSect .mnArtSectDiv #carouselExampleIndicators #mnArtSctDivDivCarouselIndicators .mnArtSectDivImgCarousel {
   padding: 20px;
 }
-.mnArtSect #carouselExampleIndicators .mnArtSectDivbtn {
+.mnArtSect .mnArtSectDiv #carouselExampleIndicators .mnArtSectDivbtn {
   background-color: black;
 }
-.mnArtSect #carouselExample {
+.mnArtSect .mnArtSectDiv #carouselExample {
   max-width: 750px;
   height: auto;
   align-self: center;
 }
-.mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide {
+.mnArtSect .mnArtSectDiv #carouselExample #mnArtSctDivDivCarouselSlide {
   width: 750px;
   height: auto;
 }
-.mnArtSect #carouselExample #mnArtSctDivDivCarouselSlide .mnArtSectDivImgCarousel {
+.mnArtSect .mnArtSectDiv #carouselExample #mnArtSctDivDivCarouselSlide .mnArtSectDivImgCarousel {
   border-radius: 30px;
   padding: 20px;
 }
-.mnArtSect #carouselExample .mnArtSectDivbtn {
+.mnArtSect .mnArtSectDiv #carouselExample .mnArtSectDivbtn {
   background-color: black;
 }
-.mnArtSect #carouselExampleRide {
+.mnArtSect .mnArtSectDiv #carouselExampleRide {
   max-width: 750px;
   height: auto;
   align-self: center;
 }
-.mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide {
+.mnArtSect .mnArtSectDiv #carouselExampleRide #mnArtSctDivDivCarouselRide {
   width: 750px;
   height: auto;
 }
-.mnArtSect #carouselExampleRide #mnArtSctDivDivCarouselRide .mnArtSectDivImgCarousel {
+.mnArtSect .mnArtSectDiv #carouselExampleRide #mnArtSctDivDivCarouselRide .mnArtSectDivImgCarousel {
   border-radius: 30px;
   padding: 20px;
 }
-.mnArtSect #carouselExampleRide .mnArtSectDivbtn {
+.mnArtSect .mnArtSectDiv #carouselExampleRide .mnArtSectDivbtn {
   background-color: black;
 }
 
@@ -300,12 +302,13 @@ body {
   grid-column: 3;
 }
 .mnSectTarjetas .card {
-  background-color: grey;
+  background-color: black;
   width: 100%;
   height: auto;
+  border: 2px grey solid;
 }
 .mnSectTarjetas .card .card-text {
-  color: black;
+  color: white;
   text-align: justify;
 }
 .mnSectTarjetas .card .card-title {

@@ -4,10 +4,12 @@
     grid-area: header;
 
     #hdNavBar {
+
+        @include border-style($tamano3Px, $colorGrisOscuro);
+
         display: flex;
         justify-content: space-between;
-        background-color: $colorBlack;
-        border-bottom: $tamano3Px $colorGrisOscuro solid; 
+        background-color: $colorBlack; 
         align-items: center;   
 
         .hdNavSection {

@@ -67,6 +67,12 @@ $noventaPorCiento: 90%;
 $cienPorCiento: 100%;
 
 
+/* --- MIXINS ---- */
+
+@mixin border-style($width, $color) {
+    border-bottom: $width solid $color;
+}
+
 /* ---- IMPORTS GENERALES ---- */
 
 /* IMPORT RESET */

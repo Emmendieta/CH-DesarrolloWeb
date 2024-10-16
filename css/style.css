@@ -3,6 +3,7 @@
 /* Tamaños */
 /* Colores */
 /* Porcentajes */
+/* --- MIXINS ---- */
 /* ---- IMPORTS GENERALES ---- */
 /* IMPORT RESET */
 /* ---- RESET CSS ---- */
@@ -35,10 +36,10 @@ body {
   grid-area: header;
 }
 #header #hdNavBar {
+  border-bottom: 3px solid rgb(44, 42, 42);
   display: flex;
   justify-content: space-between;
   background-color: black;
-  border-bottom: 3px rgb(44, 42, 42) solid;
   align-items: center;
 }
 #header #hdNavBar .hdNavSection {

@@ -53,11 +53,16 @@ body {
 }
 #header #hdNavBar .navbar-nav .hdNavUlLi {
   margin-bottom: 20px;
+  transition: 1s;
 }
 #header #hdNavBar .navbar-nav .hdNavUlLi .hdNavUlLiA {
   font-size: 25px;
   color: #F7C683;
   text-decoration: none;
+}
+#header #hdNavBar .navbar-nav .hdNavUlLi:hover {
+  transform: scale(1.5);
+  transition: 1s;
 }
 
 /* IMPORT MAIN */

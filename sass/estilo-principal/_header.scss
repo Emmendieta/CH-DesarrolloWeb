@@ -25,12 +25,20 @@
 
             .hdNavUlLi{
                 margin-bottom: $tamano20Px;
+                transition: 1s;
 
                 .hdNavUlLiA {
                     font-size: $tamano25Px;
                     color: $colorHelpMnSectP;
                     text-decoration: none;
                 } 
+                
+
+            }
+
+            .hdNavUlLi:hover {
+                transform: scale(1.5);
+                transition: 1s;
             }
         }
     }

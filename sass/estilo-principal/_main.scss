@@ -20,6 +20,8 @@
         grid-template-columns: repeat(3, 1fr);
         gap: $tamano10Px;
         margin: $tamano15Px;
+        transition: $unSegundo;
+        border-radius: $tamano15Px;
 
         .mnArtFmLabel, .mnArtFmInput, .mnArtFmButton {
             grid-column: 2 / 3;
@@ -42,10 +44,17 @@
             text-align: center;
             cursor: pointer;
             padding: $tamano5Px $tamano10Px; 
-            border-radius: $tamano4Px; 
             margin: $tamano20Px $treinta;
         }
     }
+    
+
+    .mnArtForm:hover {
+        margin: $tamano35Px;
+        transition: $unSegundo;
+        box-shadow: white $tamano15Px $tamano30Px $tamano450Px $tamano12Px;
+    }
+    
 
     .mnSectSeguimiento {
         

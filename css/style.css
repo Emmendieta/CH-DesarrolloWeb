@@ -3,6 +3,8 @@
 /* Tamaños */
 /* Colores */
 /* Porcentajes */
+/* Segundos */
+/* Escalas */
 /* --- MIXINS ---- */
 /* ---- IMPORTS GENERALES ---- */
 /* IMPORT RESET */
@@ -62,7 +64,7 @@ body {
 }
 #header #hdNavBar .navbar-nav .hdNavUlLi:hover {
   transform: scale(1.5);
-  transition: 1s;
+  transition: 2s;
 }
 
 /* IMPORT MAIN */
@@ -85,6 +87,8 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin: 15px;
+  transition: 1s;
+  border-radius: 15px;
 }
 #main .mnArtForm .mnArtFmLabel, #main .mnArtForm .mnArtFmInput, #main .mnArtForm .mnArtFmButton {
   grid-column: 2/3;
@@ -105,8 +109,12 @@ body {
   text-align: center;
   cursor: pointer;
   padding: 5px 10px;
-  border-radius: 4px;
   margin: 20px 30%;
+}
+#main .mnArtForm:hover {
+  margin: 35px;
+  transition: 1s;
+  box-shadow: white 15px 30px 450px 12px;
 }
 #main .mnSectSeguimiento .mnSectH1 {
   font-size: 25px;
@@ -196,6 +204,7 @@ body {
 .mnArtSect .mnArtSectDiv {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   /* ELementos Prohibidos */
   /* Carrusel de Ducato */
   /* Carrusel de Fiorino */

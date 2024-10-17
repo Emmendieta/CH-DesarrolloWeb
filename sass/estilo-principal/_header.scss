@@ -25,7 +25,7 @@
 
             .hdNavUlLi{
                 margin-bottom: $tamano20Px;
-                transition: 1s;
+                transition: $unSegundo;
 
                 .hdNavUlLiA {
                     font-size: $tamano25Px;
@@ -37,8 +37,8 @@
             }
 
             .hdNavUlLi:hover {
-                transform: scale(1.5);
-                transition: 1s;
+                transform: scale($unoPuntoCinco);
+                transition: $dosSegundos;
             }
         }
     }
